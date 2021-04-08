@@ -18,7 +18,10 @@
   <link rel="preconnect" href="https://i.vimeocdn.com">
   <link rel="preconnect" href="https://f.vimeocdn.com">
 
-
+   
+  <!-- add netlifycms widget to home page only-->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
 
 
 </head>
@@ -135,6 +138,18 @@ We developed a <a href="http://localhost:4000/papers/bryngelson-PRE-19.pdf" targ
 
   </div>
 
+ <!-- redirect user to admin after they prove identity, if trying to access cms -->
+ <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
       </div>
     </div>
 

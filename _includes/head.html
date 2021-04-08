@@ -15,7 +15,10 @@
   <link rel="preconnect" href="https://i.vimeocdn.com">
   <link rel="preconnect" href="https://f.vimeocdn.com">
 
-
+  {% if page.url == "/" %} 
+  <!-- add netlifycms widget to home page only-->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {% endif %}
 {% if jekyll.environment == 'production' %}
 {% include analytics.html %}
 {% endif %}
