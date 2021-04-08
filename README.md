@@ -1,3 +1,5 @@
+# Netlify Build Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0e446421-a3b6-4aec-a324-ba4f47b1317f/deploy-status)](https://app.netlify.com/sites/spike-icl/deploys)
 # Bryngelson group website
 
 **Note: This webpage has been upgraded to use Jekyll plugins. If you are using Github pages you will have to build the website with the Rakefile in the project root directory! My Rakefile is adopted from ones like [this.](https://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html)**
