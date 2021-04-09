@@ -5,14 +5,33 @@ sitemap: false
 permalink: /team/
 ---
 
-## Team
+<!-- # Team -->
 
-<b>We are looking for new graduate students to [join the team!]({{ site.url }}{{ site.baseurl }}/vacancies)</b>
+<!-- <b>We are looking for new graduate students to [join the team!]({{ site.url }}{{ site.baseurl }}/vacancies)</b>-->
 
 <!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
-## PI
+<h2 style="text-align: center">Principal Investigators</h2>
+<div class="row">
+{% for member in site.data.pi %}
+<div class="col-lg-4 col-xl-4 mt-4 mb-3">
+<div class="avatar">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/default.jpg" class="rounded-circle d-block m-auto" style="max-width:125px">
+</div>
+<h5 class="font-weight-bold" style="text-align: center">{{member.name}}</h5>
+<div class="col-sm-9 col-xs-12 d-block m-auto">
+{% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
+{% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
+{% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
+{% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
+{% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
+{% if member.website %} <a href="{{ member.website }}" target="_blank"><i class="fa fa-globe fa-2x"></i></a> {% endif %}
+</div>
+</div>
+{% endfor %}
+</div>
 
+<!--
 {% for member in site.data.pi %}
 <div class="jumbotron">
 <div class="row">
@@ -21,7 +40,6 @@ permalink: /team/
 </div>
 <div class="col-sm-9 col-xs-12">
   <h4>{{ member.name }}</h4>
-  <!-- <h5><i>{{ member.info }}</i></h5> -->
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
   {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
@@ -39,7 +57,7 @@ permalink: /team/
 </div>
 </div>
 {% endfor %}
-
+-->
 
 ## Current members
 
