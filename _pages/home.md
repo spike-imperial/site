@@ -6,13 +6,11 @@ permalink: /
 ---
 
 ## Welcome!
+The integration of knowledge into computer systems is becoming increasingly essential in the development of automated solutions to complex problems, which would otherwise require a high-level of human expertise. For example, within the context of pervasive systems, devices have to be able to automatically acquire knowledge about the environment, the context and user’s behaviours, with minimal human intervention, in order to predict and adapt. Knowledge has to be structured, so as to reflect human reasoning and use of logic. At the same time, it may involve probabilistic and/or statistical forms of inference to represent and reason under uncertainty. Modeling has also to be close to how experts solve problems in real life – be amenable to iterative processes of knowledge acquisition, interpretation and elaboration that can be more naturally intertwined with the complex dynamic nature of the environment and the systems that pervasively act within it.
 
-Nano-scale transistors fill warehouse-scale supercomputers.
-Still, their performance constrains development of the jets that transport and defend us, the medical therapies our lives depend upon, and the renewable energy sources that will power our generation into the next.
-The Bryngelson Group develops state-of-the-art **computational models** and **numerical methods** to push these applications forward.
-Our formulations leverage domain expertise in physics and biology and data-driven tools like machine learning and data assimilation.
-We deliver open-source scientific software that utilizes these methods and scales to the world's largest computers. 
+The SPIKE research activities, lead by Dr Alessandra Russo, focus on the development of frameworks, algorithms, and effective and scalable systems for engineering structured and probabilistic knowledge. Solutions can be used whether the knowledge is an integrated part of a complex system, or a model of complex dynamic system behaviour. Theoretical contributions are in the areas of Artificial Intelligence, Multi-Agent Systems, Machine Learning, Logic-based and Probabilistic inference and Inductive Logic Programming. Engineering efforts are in particular, but not exclusively, in Software Engineering, Pervasive and Ubiquitous Systems, Distributed Systems, Security, and Bioinformatics.
 
+<!--
 ## Some examples of our work
 
 Bubble cavitation can ablate kidney stones, but wreaks havoc on marine propellers.
@@ -25,3 +23,5 @@ MFC is also capable of fully-resolved multi-phase fluid dynamics via the diffuse
 
 The spectral boundary integral method leads to <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRF-18.pdf" target="_blank">high-fidelity prediction and analysis</a> of blood cells transitioning to chaos in a microfluidic device (above).
 We developed a <a href="{{ site.url }}{{ site.baseurl }}/papers/bryngelson-PRE-19.pdf" target="_blank">low-order model</a> for the cell-scale flow, important for guiding microfluidic device design and improving treatment outcomes.
+-->
+
