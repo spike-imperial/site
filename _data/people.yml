@@ -60,6 +60,60 @@ phd_students:
     role: 2nd Year PhD Student
 
 collaborators:
+  internal:
+    - name: Emil Lupu
+      scholar: https://scholar.google.com/citations?user=e23mVyoAAAAJ
+      website: http://rissgroup.org/emil_lupu/
+    - name: Jeff Kramer
+      website: http://wp.doc.ic.ac.uk/jk/
+      scholar: https://scholar.google.ca/citations?user=t-fuDjMAAAAJ
+    - name: Morris Sloman
+      scholar: https://scholar.google.com/citations?user=ey299DUAAAAJ
+      website: http://wp.doc.ic.ac.uk/mss/
+    - name: Sebastian Uchitel
+      scholar: https://scholar.google.com/citations?user=v-rnR5UAAAAJ
+      website: https://lafhis.dc.uba.ar/~suchitel/
+  external_academic:
+    - name: Antonis C. Kakas
+      role: University of Cyprus
+      website: http://www.cs.ucy.ac.cy/~antonis/
+      scholar: https://scholar.google.co.uk/citations?user=PrU4wEsAAAAJ
+    - name: Arosha Bandara
+      role: The Open University, UK
+      website: http://mcs.open.ac.uk/ban25/
+      scholar: https://scholar.google.com/citations?user=eYWisq0AAAAJ
+    - name: Artur d'Avila Garcez
+      role: City, University of London, UK
+      website: https://www.staff.city.ac.uk/~aag/
+      scholar: https://scholar.google.com/citations?user=BCpY0gsAAAAJ
+    - name: Bashar Nuseibeh
+      role: The Open University, UK
+      website: http://mcs.open.ac.uk/ban25/
+      scholar: https://scholar.google.com/citations?user=aUQ8O9gAAAAJ
+    - name: Jorge Lobo
+      role: Universitat Pompeu Fabra, Spain
+      website: https://www.upf.edu/es/web/etic/entry/-/-/89765/409/jorge-lobo
+      scholar: https://scholar.google.com/citations?user=OxwsZJUAAAAJ
+    - name: Ken Satoh 
+      role: National Institute of Informatics, Japan
+      website: http://research.nii.ac.jp/~ksatoh/
+      scholar: https://scholar.google.com/citations?user=y-Y85iwAAAAJ
+    - name: Luke Dickens
+      role: University College London, UK
+      website: https://uk.linkedin.com/in/luke-dickens-1099463
+    - name: Mark Levine 
+      role: University of Exeter, UK
+      website: http://psychology.exeter.ac.uk/staff/profile/index.php?web_id=Mark_Levine
+    - name: Robert Miller
+      role: University College London, UK
+      website: https://www.ucl.ac.uk/information-studies/rob-miller
+  external_industrial:
+    - name: David Wood 
+      role: IBM Watson Research Centre, USA
+      website: https://researcher.watson.ibm.com/researcher/view.php?person=us-dawood
+    - name: Franck Le  
+      role: IBM Watson Research Centre, USA
+      website: https://researcher.watson.ibm.com/researcher/view.php?person=us-fle
 
 alumni:
   - name: Davide Cavezza
