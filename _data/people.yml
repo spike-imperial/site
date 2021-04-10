@@ -59,3 +59,44 @@ phd_students:
   - name: Yaniv Aspis
     role: 2nd Year PhD Student
 
+collaborators:
+
+alumni:
+  - name: Davide Cavezza
+    role: PhD Student, 2015-2020
+    scholar: https://scholar.google.com/citations?user=ucdt8agAAAAJ
+  - name: Paweł Gomoluch
+    role: PhD Student, 2016-2020
+    scholar: https://scholar.google.com/citations?user=fuknxZsAAAAJ
+    github: https://github.com/pgomoluch
+    website: https://gomolu.ch/
+  - name: Mark Law
+    scholar: https://scholar.google.com/citations?user=A5JWIs0AAAAJ
+    github: https://github.com/marklaw
+    website: https://www.doc.ic.ac.uk/~ml1909/
+    role: PhD Student, 2013-2018
+  - name: Domenico Corapi
+    role: PhD Student, 2008-2011
+  - name: Jiefei Ma
+    role: PhD Student, 2007-2011
+  - name: Timoty Kimber
+    role: PhD Student, 2007-2011
+    website: http://www.doc.ic.ac.uk/~tk106/
+  - name: Luke Dickens
+    role: PhD Student, 2006-2009
+    website: https://uk.linkedin.com/in/luke-dickens-1099463
+  - name: Fabrizio Maggi
+    role: Visiting PhD Student, 2009
+  - name: Dalal Alrajeh
+    role: PhD Student, 2005-2009
+    scholar: https://scholar.google.com/citations?user=onAoWhIAAAAJ
+    website: http://www.doc.ic.ac.uk/~da04
+  - name: William Heaven
+    role: PhD Student, 2003-2007
+    website: http://uk.linkedin.com/pub/will-douglas-heaven/b/358/843
+  - name: Arosha Bandara
+    role: PhD Student, 2002-2005
+  - name: Oliver Ray
+    role: PhD Student, 2002-2005
+    website: http://people.cs.bris.ac.uk/~oray/
+
