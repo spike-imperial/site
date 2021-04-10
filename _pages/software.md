@@ -32,10 +32,45 @@ iframe {
   border-radius:20px;
   <!-- border: 1px solid black; -->
 }
+.sw-sources ul {
+    display: inline-flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+.sw-sources li {
+    margin-right: 10px;
+}
 </style>
 
 ## Software
 
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>ILASP (Inductive Learning of Answer Set Programs)</b></h4>
+<div class="sw-sources">
+<ul>
+<li><a href="https://github.com/marklaw/ILASP-releases/releases" target="_blank"><i class="fa fa-github-square fa-2x"></i></a></li>
+<li><a href="http://www.ilasp.com" target="_blank"><i class="fa fa-globe fa-2x"></i></a></li>
+</ul>
+</div>
+
+<b>Author:</b>
+<i>Mark Law</i>
+
+ILASP (Inductive Learning of Answer Set Programs) is a logic-based learning system capable of learning normal rules, disjunctive rules, choice rules, constraints and weak constraints in ASP (Answer Set Programming).
+
+
+</div>
+
+</div>
+</div>
+
+<!--
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-9 col-sm-12">
@@ -185,3 +220,5 @@ Parallel communication (MPI) enables large simulations, such as model vascular n
 </div>
 </div>
 </div>
+-->
+

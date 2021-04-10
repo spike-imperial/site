@@ -16,14 +16,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav mr-auto">
         <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
-          </li> 
-          {% for page in site.nav_pages %}
-           <li class="nav-item">
-            <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
-           </li> 
-          {% endfor %}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+            </li> 
+            {% for page in site.nav_pages %}
+                {% if page.subpages %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{page.name | capitalize }}</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            {% for subpage in page.subpages %}
+                                <a class="dropdown-item" href="{{ site.url }}{{ site.baseurl }}/{{subpage}}">{{subpage | capitalize }}</a>
+                            {% endfor %}
+                        </div>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/{{page.name}}">{{page.name | capitalize }}</a>
+                    </li> 
+                {% endif %}
+            {% endfor %}
         </ul>
   </div>
 </nav>
