@@ -1,34 +1,61 @@
-- name: Jean-Sebastien Spratt    
-  location: Caltech               
-  degree: Ph.D. 
-  year: exp. 2022
+pi:
+  - name: Alessandra Russo
+    scholar: https://scholar.google.co.uk/citations?user=_6zceo4AAAAJ
+    website: https://wp.doc.ic.ac.uk/arusso/
+    role: Professor
+  - name: Krysia Broda
+    website: http://wp.doc.ic.ac.uk/kb/
+    role: Senior Lecturer 
+  - name: Dalal Alrajeh
+    scholar: https://scholar.google.com/citations?user=onAoWhIAAAAJ
+    website: http://www.doc.ic.ac.uk/~da04
+    role: Assistant Professor
 
-- name: Alexis Charalampopoulos  
-  location: MIT                   
-  degree: Ph.D. 
-  year: exp. 2022
+postdocs:
+  - name: Mark Law
+    scholar: https://scholar.google.com/citations?user=A5JWIs0AAAAJ
+    github: https://github.com/marklaw
+    website: https://www.doc.ic.ac.uk/~ml1909/
+    role: Post-Doc
 
-- name: Ben Stevens              
-  location: Caltech               
-  degree: Ph.D. 
-  year: exp. 2021
+phd_students:
+  - name: Alex Spies
+    scholar: https://scholar.google.com/citations?user=Jfp2pAQAAAAJ
+    github: https://github.com/afspies
+    website: https://afspies.com/
+    role: 1st Year PhD Student
+  - name: Daniel Cunnington
+    scholar: https://scholar.google.co.uk/citations?user=36a0sxUAAAAJ
+    github: https://github.com/DanCunnington
+    website: https://researcher.watson.ibm.com/researcher/view.php?person=uk-DanCunnington
+    role: 2nd Year PhD Student
+  - name: Daniel Furelos-Blanco
+    scholar: https://scholar.google.com/citations?user=IfMKjBgAAAAJ
+    github: https://github.com/ertsiger
+    website: https://www.danielfurelos.com/
+    role: 3rd Year PhD Student
+  - name: Daniel Pace
+    role: 3rd Year PhD Student
+  - name: David Tuckey
+    researchgate: https://www.researchgate.net/profile/David-Tuckey
+    role: 3rd Year PhD Student
+  - name: Hadeel Al-Negheimish
+    scholar: https://scholar.google.com/citations?user=Z_aIahwAAAAJ
+    role: 3rd Year PhD Student    
+  - name: Harry Stromfelt
+    role: 4th Year PhD Student       
+  - name: Nuri Cingillioglu
+    github: https://github.com/nuric/
+    website: https://www.doc.ic.ac.uk/~nuric/
+    role: 4th Year PhD Student   
+  - name: Osama Rama
+    role: 4th Year PhD Student   
+  - name: Rakhilya Mekhtieva
+    role: 2nd Year PhD Student   
+  - name: Ruben Vereecken
+    role: 4th Year PhD Student   
+  - name: Shuang Xia
+    role: 4th Year PhD Student  
+  - name: Yaniv Aspis
+    role: 2nd Year PhD Student
 
-- name: Esteban Cisneros         
-  location: University of Illinois
-  degree: Ph.D. 
-  year: exp. 2021
-
-- name: Dr. David Mittelstein   
-  location: USC/Caltech           
-  degree: Ph.D. 
-  year: 2020
-
-- name: Dr. Theresa Trummler    
-  location: TU Munich             
-  degree: Ph.D. 
-  year: 2020
-
-- name: Franz O'Meally           
-  location: Johns Hopkins         
-  degree: B.S.
-  year: 2020
