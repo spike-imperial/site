@@ -1,72 +1,14 @@
-- name: Spencer Bryngelson
-  photo: spencer_headshot.jpg
-  info: <i>Assistant Professor</i><br/> College of Computing <br/>Georgia Tech 
-  email: spencer@caltech.edu
-  github: https://github.com/sbryngelson
-  researchgate: https://www.researchgate.net/profile/Spencer_Bryngelson
-  scholar: https://scholar.google.com/citations?user=dM-nHdMAAAAJ&hl=en
-  cv: cv/cv.pdf
-  education1: (2021- ) Assistant Professor of <a href="https://cse.gatech.edu/" target="_blank">CSE</a>, Georgia Tech
-  education2: (2018-21) Senior Postdoc, Caltech (with <a href="https://colonius.caltech.edu" target="_blank">Tim Colonius</a>)
-  education3: (2019) Visiting Researcher, MIT (with <a href="http://sandlab.mit.edu" target="_blank">Themis Sapsis</a>)
-  education4: (2017-8) Postdoc, <a href="https://xpacc.illinois.edu/" target="_blank">XPACC</a>
-  education5: (2013-7) M.S + Ph.D., UIUC (with <a href="https://aerospace.illinois.edu/directory/profile/jbfreund" target="_blank">Jon Freund</a>)
-  education6: (2015) M.S. Theoretical and Applied Mechanics<br> University of Illinois at Urbana-Champaign
-    <br>(with certificate in <a href="https://cse.illinois.edu/" target="_blank">Computational Science & Engineering</a>)
-  education7: (2013) B.S. Mechanical Engineering, B.S. Mathematics<br>
-    University of Michigan-Dearborn
+- name: Alessandra Russo
+  scholar: https://scholar.google.co.uk/citations?user=_6zceo4AAAAJ
+  website: https://wp.doc.ic.ac.uk/arusso/
+  role: Professor
 
-- name: Spencer Bryngelson
-  photo: spencer_headshot.jpg
-  info: <i>Assistant Professor</i><br/> College of Computing <br/>Georgia Tech 
-  email: spencer@caltech.edu
-  github: https://github.com/sbryngelson
-  researchgate: https://www.researchgate.net/profile/Spencer_Bryngelson
-  scholar: https://scholar.google.com/citations?user=dM-nHdMAAAAJ&hl=en
-  cv: cv/cv.pdf
-  education1: (2021- ) Assistant Professor of <a href="https://cse.gatech.edu/" target="_blank">CSE</a>, Georgia Tech
-  education2: (2018-21) Senior Postdoc, Caltech (with <a href="https://colonius.caltech.edu" target="_blank">Tim Colonius</a>)
-  education3: (2019) Visiting Researcher, MIT (with <a href="http://sandlab.mit.edu" target="_blank">Themis Sapsis</a>)
-  education4: (2017-8) Postdoc, <a href="https://xpacc.illinois.edu/" target="_blank">XPACC</a>
-  education5: (2013-7) M.S + Ph.D., UIUC (with <a href="https://aerospace.illinois.edu/directory/profile/jbfreund" target="_blank">Jon Freund</a>)
-  education6: (2015) M.S. Theoretical and Applied Mechanics<br> University of Illinois at Urbana-Champaign
-    <br>(with certificate in <a href="https://cse.illinois.edu/" target="_blank">Computational Science & Engineering</a>)
-  education7: (2013) B.S. Mechanical Engineering, B.S. Mathematics<br>
-    University of Michigan-Dearborn
+- name: Krysia Broda
+  website: http://wp.doc.ic.ac.uk/kb/
+  role: Senior Lecturer
     
-- name: Daniel Furelos-Blanco
-  photo: spencer_headshot.jpg
-  info: <i>Assistant Professor</i><br/> College of Computing <br/>Georgia Tech 
-  email: spencer@caltech.edu
-  github: https://github.com/sbryngelson
-  researchgate: https://www.researchgate.net/profile/Spencer_Bryngelson
-  scholar: https://scholar.google.com/citations?user=dM-nHdMAAAAJ&hl=en
-  cv: cv/cv.pdf
-  education1: (2021- ) Assistant Professor of <a href="https://cse.gatech.edu/" target="_blank">CSE</a>, Georgia Tech
-  education2: (2018-21) Senior Postdoc, Caltech (with <a href="https://colonius.caltech.edu" target="_blank">Tim Colonius</a>)
-  education3: (2019) Visiting Researcher, MIT (with <a href="http://sandlab.mit.edu" target="_blank">Themis Sapsis</a>)
-  education4: (2017-8) Postdoc, <a href="https://xpacc.illinois.edu/" target="_blank">XPACC</a>
-  education5: (2013-7) M.S + Ph.D., UIUC (with <a href="https://aerospace.illinois.edu/directory/profile/jbfreund" target="_blank">Jon Freund</a>)
-  education6: (2015) M.S. Theoretical and Applied Mechanics<br> University of Illinois at Urbana-Champaign
-    <br>(with certificate in <a href="https://cse.illinois.edu/" target="_blank">Computational Science & Engineering</a>)
-  education7: (2013) B.S. Mechanical Engineering, B.S. Mathematics<br>
-    University of Michigan-Dearborn
-    
-- name: Daniel Furelos-Blanco
-  photo: spencer_headshot.jpg
-  info: <i>Assistant Professor</i><br/> College of Computing <br/>Georgia Tech 
-  email: spencer@caltech.edu
-  github: https://github.com/sbryngelson
-  researchgate: https://www.researchgate.net/profile/Spencer_Bryngelson
-  scholar: https://scholar.google.com/citations?user=dM-nHdMAAAAJ&hl=en
-  cv: cv/cv.pdf
-  education1: (2021- ) Assistant Professor of <a href="https://cse.gatech.edu/" target="_blank">CSE</a>, Georgia Tech
-  education2: (2018-21) Senior Postdoc, Caltech (with <a href="https://colonius.caltech.edu" target="_blank">Tim Colonius</a>)
-  education3: (2019) Visiting Researcher, MIT (with <a href="http://sandlab.mit.edu" target="_blank">Themis Sapsis</a>)
-  education4: (2017-8) Postdoc, <a href="https://xpacc.illinois.edu/" target="_blank">XPACC</a>
-  education5: (2013-7) M.S + Ph.D., UIUC (with <a href="https://aerospace.illinois.edu/directory/profile/jbfreund" target="_blank">Jon Freund</a>)
-  education6: (2015) M.S. Theoretical and Applied Mechanics<br> University of Illinois at Urbana-Champaign
-    <br>(with certificate in <a href="https://cse.illinois.edu/" target="_blank">Computational Science & Engineering</a>)
-  education7: (2013) B.S. Mechanical Engineering, B.S. Mathematics<br>
-    University of Michigan-Dearborn
-  website: aa
+- name: Dalal Alrajeh
+  scholar: https://scholar.google.com/citations?user=onAoWhIAAAAJ
+  website: http://www.doc.ic.ac.uk/~da04
+  role: Assistant Professor
+

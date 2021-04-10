@@ -3,11 +3,11 @@ img {
 }
 
 a {
-  color: #c0995e;
+  color: #003E74;
 }
 
 a:hover {
-  color: lighten(#c0995e,20%);
+  color: lighten(#003E74,20%);
 }
 
 .jumbotron {
@@ -92,3 +92,23 @@ a:hover {
   height: 112px;
   background-image: url($baseurl + "/images/thumbs/spleen.jpg");
 }
+
+// teams
+.networks {
+    text-align: center;
+}
+
+.networks ul {
+    display: inline-flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+.networks li {
+    margin-right: 10px;
+}
+
