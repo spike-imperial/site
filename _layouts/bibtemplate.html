@@ -68,6 +68,16 @@ pre{
 <pre>{{entry.abstract}}</pre>
 </div>
 
+    
+{% if entry.tags %}
+{% assign tags = entry.tags | split: "," %}
+    {% for tag in tags %}
+    <p>
+        {{tag}}
+    </p>
+    {% endfor %}
+{% endif %}
+    
 <script>
 function toggleBibtex{{entry.key}}(parameter) {
     var x= document.getElementById('a{{entry.key}}');

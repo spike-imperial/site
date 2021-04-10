@@ -64,18 +64,14 @@ kramdown:
 plugins: ['jekyll/scholar']
 
 scholar:
-
-  last_name: Bryngelson
-  first_name: [Spencer H.]
-
   style: shb
   locale: en
 
-  source: /cv/
+  source: /publications/
   bibliography: ref.bib
   bibliography_template: bibtemplate
   sort_by: year, month
-  order: descending
+  order: ascending
 
   replace_strings: true
   join_strings: true
@@ -86,8 +82,8 @@ scholar:
 
   query: "@*"
 
-  bibliography_list_attributes:
-    reversed: "reversed"
+  # bibliography_list_attributes:
+    # reversed: "reversed"
 
 exclude:
   - Gemfile

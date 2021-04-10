@@ -1,0 +1,107 @@
+I"�<style>
+.btn{
+    margin-bottom:5px;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.jumbotron{
+    padding:3%;
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+</style>
+
+<div class="jumbotron">
+  <h3 id="invited-talks">Invited talks</h3>
+  <ol class="bibliography"></ol>
+</div>
+
+<div class="jumbotron">
+  <h3 id="regular-talks">Regular talks</h3>
+  <ol class="bibliography"><li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify">
+<span id="abujabalPolismaFrameworkLearning2020">Abu Jabal, A., Bertino, E., Lobo, J., Law, M., Russo, A., Calo, S., &amp; Verma, D. (2020). Polisma - A Framework for Learning Attribute-Based Access Control Policies. In L. Chen, N. Li, K. Liang, &amp; S. Schneider (Eds.), <i>Computer Security – ESORICS 2020</i> (pp. 523–544). Springer International Publishing.</span></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="aabujabalPolismaFrameworkLearning2020" style="display: none; background-color:white; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@incollection{abujabalPolismaFrameworkLearning2020,
+  title = {Polisma - {{A Framework}} for {{Learning Attribute}}-{{Based Access Control Policies}}},
+  booktitle = {Computer {{Security}} – {{ESORICS}} 2020},
+  author = {Abu Jabal, Amani and Bertino, Elisa and Lobo, Jorge and Law, Mark and Russo, Alessandra and Calo, Seraphin and Verma, Dinesh},
+  editor = {Chen, Liqun and Li, Ninghui and Liang, Kaitai and Schneider, Steve},
+  date = {2020},
+  pages = {523--544},
+  publisher = {{Springer International Publishing}},
+  location = {{Cham}},
+  isbn = {978-3-030-58951-6},
+  langid = {english},
+  series = {Lecture {{Notes}} in {{Computer Science}}}
+}
+</pre>
+</div>
+
+
+<div id="babujabalPolismaFrameworkLearning2020" style="display: none; background-color:white; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre></pre>
+</div>
+
+<div id="babujabalPolismaFrameworkLearning2020" style="display: none; background-color:white; border-radius:5px; padding:10px; margin-bottom:20px;">
+    
+</div>
+
+<script>
+function toggleBibtexabujabalPolismaFrameworkLearning2020(parameter) {
+    var x= document.getElementById('aabujabalPolismaFrameworkLearning2020');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractabujabalPolismaFrameworkLearning2020(parameter) {
+    var x= document.getElementById('babujabalPolismaFrameworkLearning2020');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li></ol>
+</div>
+
+:ET

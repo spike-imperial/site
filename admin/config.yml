@@ -3,6 +3,10 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+
+# when using the default proxy server port
+local_backend: true # For local modifcations of cms
+
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
@@ -10,3 +14,11 @@ collections:
     folder: '_posts/'
     fields:
       - { name: Title }
+  - name: 'bibliography'
+    label: 'bibliography'
+    folder: 'publications/'
+    extension: '.bib'
+    format: 'frontmatter'
+    fields:
+     - { name: body }
+    # files: ['ref.bib' ]
