@@ -1,156 +1,324 @@
-pi:
-  - name: Alessandra Russo
+- name: Alessandra
+  surname: Russo
+  groups: "pi"
+  institution: Imperial College London
+  social:
     scholar: https://scholar.google.co.uk/citations?user=_6zceo4AAAAJ
     website: https://wp.doc.ic.ac.uk/arusso/
-    role: Professor
-  - name: Krysia Broda
+
+- name: Krysia
+  surname: Broda
+  groups: ["pi"]
+  institution: Imperial College London
+  social:
     website: http://wp.doc.ic.ac.uk/kb/
-    role: Senior Lecturer 
-  - name: Dalal Alrajeh
+
+- name: Dalal
+  surname: Alrajeh
+  groups: ["pi", "alumni"]
+  institution: Imperial College London
+  social:
     scholar: https://scholar.google.com/citations?user=onAoWhIAAAAJ
     website: http://www.doc.ic.ac.uk/~da04
-    role: Assistant Professor
+  alumni: 
+    role: PhD Student
+    start: 2005
+    end: 2009
 
-postdocs:
-  - name: Mark Law
+- name: Mark
+  surname: Law
+  groups: ["post-doc", "alumni"]
+  institution: Imperial College London
+  social:
     scholar: https://scholar.google.com/citations?user=A5JWIs0AAAAJ
     github: https://github.com/marklaw
     website: https://www.doc.ic.ac.uk/~ml1909/
-    role: Post-Doc
+  alumni:
+    role: PhD Student
+    start: 2013
+    end: 2018
 
-phd_students:
-  - name: Alex Spies
+- name: Alex
+  surname: Spies
+  groups: ["phd-student"]
+  institution: Imperial College London
+  social:
     scholar: https://scholar.google.com/citations?user=Jfp2pAQAAAAJ
     github: https://github.com/afspies
     website: https://afspies.com/
-    role: 1st Year PhD Student
-  - name: Daniel Cunnington
+
+- name: Daniel 
+  surname: Cunnington
+  groups: ["phd-student"]
+  institution: Imperial College London
+  social:
     scholar: https://scholar.google.co.uk/citations?user=36a0sxUAAAAJ
     github: https://github.com/DanCunnington
     website: https://researcher.watson.ibm.com/researcher/view.php?person=uk-DanCunnington
-    role: 2nd Year PhD Student
-  - name: Daniel Furelos-Blanco
+
+- name: Daniel 
+  surname: Furelos-Blanco
+  groups: ["phd-student"]
+  institution: Imperial College London
+  social:
     scholar: https://scholar.google.com/citations?user=IfMKjBgAAAAJ
     github: https://github.com/ertsiger
     website: https://www.danielfurelos.com/
-    role: 3rd Year PhD Student
-  - name: Daniel Pace
-    role: 3rd Year PhD Student
-  - name: David Tuckey
+
+- name: Daniel
+  surname: Pace
+  groups: ["phd-student"]
+  institution: Imperial College London
+  
+- name: David
+  surname: Tuckey
+  groups: ["phd-student"]
+  institution: Imperial College London
+  social:
     researchgate: https://www.researchgate.net/profile/David-Tuckey
-    role: 3rd Year PhD Student
-  - name: Hadeel Al-Negheimish
+  
+- name: Hadeel 
+  surname: Al-Negheimish
+  groups: ["phd-student"]
+  institution: Imperial College London
+  social:
     scholar: https://scholar.google.com/citations?user=Z_aIahwAAAAJ
-    role: 3rd Year PhD Student    
-  - name: Harry Stromfelt
-    role: 4th Year PhD Student       
-  - name: Nuri Cingillioglu
+  
+- name: Harry
+  surname: Stromfelt
+  
+- name: Nuri
+  surname: Cingillioglu
+  groups: ["phd-student"]
+  institution: Imperial College London
+  social:
     github: https://github.com/nuric/
     website: https://www.doc.ic.ac.uk/~nuric/
-    role: 4th Year PhD Student   
-  - name: Osama Rama
-    role: 4th Year PhD Student   
-  - name: Rakhilya Mekhtieva
-    role: 2nd Year PhD Student   
-  - name: Ruben Vereecken
-    role: 4th Year PhD Student   
-  - name: Shuang Xia
-    role: 4th Year PhD Student  
-  - name: Yaniv Aspis
-    role: 2nd Year PhD Student
+  
+- name: Osama
+  surname: Rama
+  groups: ["phd-student"]
+  institution: Imperial College London
+  
+- name: Rakhilya 
+  surname: Mekhtieva
+  groups: ["phd-student"]
+  institution: Imperial College London
+  
+- name: Ruben 
+  surname: Vereecken
+  groups: ["phd-student"]
+  institution: Imperial College London
+    
+- name: Shuang 
+  surname: Xia
+  groups: ["phd-student"]
+  institution: Imperial College London
+  
+- name: Yaniv 
+  surname: Aspis
+  groups: ["phd-student"]
+  institution: Imperial College London
+  
+- name: Emil
+  surname: Lupu
+  groups: ["internal-collaborator"]
+  institution: Imperial College London
+  social:
+    scholar: https://scholar.google.com/citations?user=e23mVyoAAAAJ
+    website: http://rissgroup.org/emil_lupu/
 
-collaborators:
-  internal:
-    - name: Emil Lupu
-      scholar: https://scholar.google.com/citations?user=e23mVyoAAAAJ
-      website: http://rissgroup.org/emil_lupu/
-    - name: Jeff Kramer
-      website: http://wp.doc.ic.ac.uk/jk/
-      scholar: https://scholar.google.ca/citations?user=t-fuDjMAAAAJ
-    - name: Morris Sloman
-      scholar: https://scholar.google.com/citations?user=ey299DUAAAAJ
-      website: http://wp.doc.ic.ac.uk/mss/
-    - name: Sebastian Uchitel
-      scholar: https://scholar.google.com/citations?user=v-rnR5UAAAAJ
-      website: https://lafhis.dc.uba.ar/~suchitel/
-  external_academic:
-    - name: Antonis C. Kakas
-      role: University of Cyprus
-      website: http://www.cs.ucy.ac.cy/~antonis/
-      scholar: https://scholar.google.co.uk/citations?user=PrU4wEsAAAAJ
-    - name: Arosha Bandara
-      role: The Open University, UK
-      website: http://mcs.open.ac.uk/ban25/
-      scholar: https://scholar.google.com/citations?user=eYWisq0AAAAJ
-    - name: Artur d'Avila Garcez
-      role: City, University of London, UK
-      website: https://www.staff.city.ac.uk/~aag/
-      scholar: https://scholar.google.com/citations?user=BCpY0gsAAAAJ
-    - name: Bashar Nuseibeh
-      role: The Open University, UK
-      website: http://mcs.open.ac.uk/ban25/
-      scholar: https://scholar.google.com/citations?user=aUQ8O9gAAAAJ
-    - name: Jorge Lobo
-      role: Universitat Pompeu Fabra, Spain
-      website: https://www.upf.edu/es/web/etic/entry/-/-/89765/409/jorge-lobo
-      scholar: https://scholar.google.com/citations?user=OxwsZJUAAAAJ
-    - name: Ken Satoh 
-      role: National Institute of Informatics, Japan
-      website: http://research.nii.ac.jp/~ksatoh/
-      scholar: https://scholar.google.com/citations?user=y-Y85iwAAAAJ
-    - name: Luke Dickens
-      role: University College London, UK
-      website: https://uk.linkedin.com/in/luke-dickens-1099463
-    - name: Mark Levine 
-      role: University of Exeter, UK
-      website: http://psychology.exeter.ac.uk/staff/profile/index.php?web_id=Mark_Levine
-    - name: Robert Miller
-      role: University College London, UK
-      website: https://www.ucl.ac.uk/information-studies/rob-miller
-  external_industrial:
-    - name: David Wood 
-      role: IBM Watson Research Centre, USA
-      website: https://researcher.watson.ibm.com/researcher/view.php?person=us-dawood
-    - name: Franck Le  
-      role: IBM Watson Research Centre, USA
-      website: https://researcher.watson.ibm.com/researcher/view.php?person=us-fle
+- name: Jeff 
+  surname: Kramer
+  groups: ["internal-collaborator"]
+  institution: Imperial College London
+  social:
+    website: http://wp.doc.ic.ac.uk/jk/
+    scholar: https://scholar.google.ca/citations?user=t-fuDjMAAAAJ
 
-alumni:
-  - name: Davide Cavezza
-    role: PhD Student, 2015-2020
+- name: Morris
+  surname: Sloman
+  groups: ["internal-collaborator"]
+  institution: Imperial College London
+  social:
+    scholar: https://scholar.google.com/citations?user=ey299DUAAAAJ
+    website: http://wp.doc.ic.ac.uk/mss/
+
+- name: Sebastian
+  surname: Uchitel
+  groups: ["internal-collaborator"]
+  institution: Imperial College London
+  social:
+    scholar: https://scholar.google.com/citations?user=v-rnR5UAAAAJ
+    website: https://lafhis.dc.uba.ar/~suchitel/
+
+- name: Antonis C. 
+  surname: Kakas
+  groups: ["external-academic-collaborator"]
+  institution: University of Cyprus
+  social:
+    website: http://www.cs.ucy.ac.cy/~antonis/
+    scholar: https://scholar.google.co.uk/citations?user=PrU4wEsAAAAJ
+  
+- name: Arosha 
+  surname: Bandara
+  groups: ["external-academic-collaborator"]
+  institution: The Open University, UK
+  social:
+    website: http://mcs.open.ac.uk/ban25/
+    scholar: https://scholar.google.com/citations?user=eYWisq0AAAAJ
+
+- name: Artur 
+  surname: d'Avila Garcez
+  groups: ["external-academic-collaborator"]
+  institution: City, University of London, UK
+  social:
+    website: https://www.staff.city.ac.uk/~aag/
+    scholar: https://scholar.google.com/citations?user=BCpY0gsAAAAJ
+
+- name: Bashar
+  surname: Nuseibeh
+  groups: ["external-academic-collaborator"]
+  institution: The Open University, UK
+  social:
+    website: http://mcs.open.ac.uk/ban25/
+    scholar: https://scholar.google.com/citations?user=aUQ8O9gAAAAJ
+    
+- name: Jorge 
+  surname: Lobo
+  groups: ["external-academic-collaborator"]
+  institution: Universitat Pompeu Fabra, Spain
+  social:
+    website: https://www.upf.edu/es/web/etic/entry/-/-/89765/409/jorge-lobo
+    scholar: https://scholar.google.com/citations?user=OxwsZJUAAAAJ
+    
+- name: Ken 
+  surname: Satoh
+  groups: ["external-academic-collaborator"]
+  institution: National Institute of Informatics, Japan
+  social:
+    website: http://research.nii.ac.jp/~ksatoh/
+    scholar: https://scholar.google.com/citations?user=y-Y85iwAAAAJ
+
+- name: Luke 
+  surname: Dickens
+  groups: ["external-academic-collaborator", "alumni"]
+  institution: University College London, UK
+  alumni: 
+    role: PhD Student
+    start: 2006
+    end: 2009
+  social:
+    website: https://uk.linkedin.com/in/luke-dickens-1099463
+
+- name: Mark 
+  surname: Levine 
+  groups: ["external-academic-collaborator"]
+  institution: University of Exeter, UK
+  social:
+    website: http://psychology.exeter.ac.uk/staff/profile/index.php?web_id=Mark_Levine
+
+- name: Robert
+  surname: Miller
+  groups: ["external-academic-collaborator"]
+  institution: University College London, UK
+  social:
+    website: https://www.ucl.ac.uk/information-studies/rob-miller
+
+- name: David 
+  surname: Wood 
+  groups: ["external-industrial-collaborator"]
+  institution: IBM Watson Research Centre, USA
+  social:
+    website: https://researcher.watson.ibm.com/researcher/view.php?person=us-dawood
+
+- name: Franck
+  surname: Le  
+  groups: ["external-industrial-collaborator"]
+  institution: IBM Watson Research Centre, USA
+  social:
+    website: https://researcher.watson.ibm.com/researcher/view.php?person=us-fle
+
+- name: Davide
+  surname: Cavezza
+  groups: ["alumni"]
+  alumni: 
+    role: PhD Student
+    start: 2015
+    end: 2020
+  social:
     scholar: https://scholar.google.com/citations?user=ucdt8agAAAAJ
-  - name: Paweł Gomoluch
-    role: PhD Student, 2016-2020
+
+- name: Paweł
+  surname: Gomoluch
+  groups: ["alumni"]
+  alumni: 
+    role: PhD Student
+    start: 2016
+    end: 2020
+  social:
     scholar: https://scholar.google.com/citations?user=fuknxZsAAAAJ
     github: https://github.com/pgomoluch
     website: https://gomolu.ch/
-  - name: Mark Law
-    scholar: https://scholar.google.com/citations?user=A5JWIs0AAAAJ
-    github: https://github.com/marklaw
-    website: https://www.doc.ic.ac.uk/~ml1909/
-    role: PhD Student, 2013-2018
-  - name: Domenico Corapi
-    role: PhD Student, 2008-2011
-  - name: Jiefei Ma
-    role: PhD Student, 2007-2011
-  - name: Timoty Kimber
-    role: PhD Student, 2007-2011
+
+- name: Domenico
+  surname: Corapi
+  groups: ["alumni"]
+  alumni: 
+    role: PhD Student
+    start: 2008
+    end: 2011
+
+- name: Jiefei
+  surname: Ma
+  groups: ["alumni"]
+  alumni: 
+    role: PhD Student
+    start: 2007
+    end: 2011
+
+- name: Timothy 
+  surname: Kimber
+  groups: ["alumni"]
+  alumni: 
+    role: PhD Student
+    start: 2007
+    end: 2011
+  social:
     website: http://www.doc.ic.ac.uk/~tk106/
-  - name: Luke Dickens
-    role: PhD Student, 2006-2009
-    website: https://uk.linkedin.com/in/luke-dickens-1099463
-  - name: Fabrizio Maggi
-    role: Visiting PhD Student, 2009
-  - name: Dalal Alrajeh
-    role: PhD Student, 2005-2009
-    scholar: https://scholar.google.com/citations?user=onAoWhIAAAAJ
-    website: http://www.doc.ic.ac.uk/~da04
-  - name: William Heaven
-    role: PhD Student, 2003-2007
+    
+- name: Fabrizio
+  surname: Maggi
+  groups: ["alumni"]
+  alumni: 
+    role: Visiting PhD Student
+    start: 2009
+  
+- name: William 
+  surname: Heaven
+  groups: ["alumni"]
+  alumni: 
+    role: PhD Student
+    start: 2003
+    end: 2007
+  social:
     website: http://uk.linkedin.com/pub/will-douglas-heaven/b/358/843
-  - name: Arosha Bandara
-    role: PhD Student, 2002-2005
-  - name: Oliver Ray
-    role: PhD Student, 2002-2005
+  
+- name: Arosha 
+  surname: Bandara
+  groups: ["alumni"]
+  alumni: 
+    role: PhD Student
+    start: 2002
+    end: 2005
+
+- name: Oliver 
+  surname: Ray
+  groups: ["alumni"]
+  alumni: 
+    role: PhD Student
+    start: 2002
+    end: 2005
+  social:
     website: http://people.cs.bris.ac.uk/~oray/
 

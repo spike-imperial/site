@@ -12,23 +12,17 @@ permalink: /team/
 <!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
 <h2 class="team-role">Principal Investigators</h2>
-<div class="row">
-{% for member in site.data.people.pi %}
-{% include_relative member.md %}
-{% endfor %}
-</div>
+{% assign group = "pi" %}
+{% assign sorting_criteria = "name" %}
+{% include_relative members.md %}
 
 <h2 class="team-role">Post-Docs</h2>
-<div class="row">
-{% for member in site.data.people.postdocs %}
-{% include_relative member.md %}
-{% endfor %}
-</div>
+{% assign group = "post-doc" %}
+{% assign sorting_criteria = "name" %}
+{% include_relative members.md %}
 
 <h2 class="team-role">PhD Students</h2>
-<div class="row">
-{% for member in site.data.people.phd_students %}
-{% include_relative member.md %}
-{% endfor %}
-</div>
+{% assign group = "phd-student" %}
+{% assign sorting_criteria = "name" %}
+{% include_relative members.md %}
 
