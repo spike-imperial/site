@@ -33,22 +33,6 @@ iframe {
   <!-- border: 1px solid black; -->
 } */
 
-/* .container {
-	border: 3px solid blue;
-	padding: 20px 40px 40px;
-	max-width: 600px;
-	&__image {
-		/* max-width; 20%; */
-    width: 40px;
-    height: 10px;
-		margin: 30px 30px 30px 0;
-		float: left;
-	}
-	&__text {
-		display: inline;
-	}
-} */
-
 .project-sources ul {
     display: inline-flex; 
     flex-direction: row; 
@@ -66,15 +50,38 @@ iframe {
 ## Projects
 
 {% for project in site.projects %}
-<div class="jumbotron"> 
+<!-- <div class="jumbotron"> 
 <div class="row align-items-end">
-<div class="col-md-12 col-sm-12">
+<div class="col-md-12 col-sm-12"> -->
 <!-- <div class="container"> -->
 <!-- {% if project.thumbnail != nil %}
 <img class="container__image" src="{{project.thumbnail}}" /> 
 {% endif %} -->
+<div class="row mb-1">
+<div class="col-md-12">
+<div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+<div class="col p-4 d-flex flex-column position-static">
+<strong class="d-inline-block mb-2 text-primary">On-going</strong>
+<h3 class="mb-0">{{project.title}}</h3>
+<div class="mb-1 text-muted">{{ article.date | date: "%b %d, %Y" }}</div>
+<p class="card-text mb-auto">{{project.summary}}</p>
+{% assign content = project.content | strip_newlines %}
+{% if content != '' %}
+<a href="{{project.url}}" class="stretched-link">Continue reading</a>
+{% endif %}
+</div>
+{% if project.thumbnail %}
+<div class="col-auto d-none d-lg-block">
+<!-- <p>bla</p> -->
+<img role="img"  style="margin-top: 15px" src="{{project.thumbnail}}" height="200" max-width="20" focusable="false">
+</div>
+{% endif %}
+</div>
+</div>
+</div>
 
-<!-- <div class="container__text">  -->
+<!-- <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+<!-- <div class="container__text"> 
 <h4><b>{{project.title}}</b></h4>
 {{project.summary}}
 {% assign content = project.content | strip_newlines %}
@@ -82,9 +89,6 @@ iframe {
 <a href="{{project.url}}">More information</a>
 {% endif %}
 <!-- </div> -->
-
-
-
 
 <!--
 <div class="project-sources">
@@ -94,8 +98,8 @@ iframe {
 </div>
 -->
 
+<!-- </div>
 </div>
-</div>
-</div>
+</div> --> 
 {% endfor %}
 
