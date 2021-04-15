@@ -12,20 +12,16 @@ google_tag_manager: GTM-TZ9Z7HZ
 
 # Footer info
 about: >
-    Prof. Spencer H. Bryngelson<br/>
-    College of Computing, <a href="https://cse.gatech.edu/" target="_blank">CSE</a><br/>
-    Georgia Institute of Technology
-
-coordinates: >
-  <a href="https://codatechsquare.com/" target="_blank">CODA</a><br/>
-  756 W Peachtree St<br/>
-  Atlanta, GA 30332
+    Structured and Probabilistic Intelligent Knowledge Engineering Group<br/>
+    Department of Computing<br/>
+    Imperial College London
 
 information: >
-    <a href="mailto:spencer@caltech.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Spencer via email</a> <br/>
-    <a href="/aboutwebsite.html"><i class="fa fa-github fa-1x"></i> Use my site as a template!</a> <br/>
-    <a href="/vacancies.html"><i class="fa fa-users fa-1x"></i> Explore openings</a>
+    <a href="/contact"><i class="fa fa-envelope fa-1x"></i> Contact us</a> <br/>
+    <a href="/vacancies"><i class="fa fa-users fa-1x"></i> Explore openings</a>
 
+# old information
+# <a href="/aboutwebsite.html"><i class="fa fa-github fa-1x"></i> Use my site as a template!</a> <br/>
 
 # Pages shown in navbar
 nav_pages:
