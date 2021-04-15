@@ -63,7 +63,9 @@ iframe {
 <div class="col p-4 d-flex flex-column position-static">
 <strong class="d-inline-block mb-2 text-primary">On-going</strong>
 <h3 class="mb-0">{{project.title}}</h3>
-<div class="mb-1 text-muted">{{ article.date | date: "%b %d, %Y" }}</div>
+<div class="mb-1 text-muted">
+{{project.date | date: "%b %d, %Y"}}
+</div>
 <p class="card-text mb-auto">{{project.summary}}</p>
 {% assign content = project.content | strip_newlines %}
 {% if content != '' %}
