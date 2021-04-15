@@ -44,6 +44,7 @@ nav_pages:
 include:
   - .htaccess
   - _pages
+  - _projects
 
 # Conversion
 markdown: kramdown
