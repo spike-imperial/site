@@ -43,4 +43,24 @@ collections:
        # Hidden from CMS users 
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'permalink', name: 'permalink', widget: 'hidden', default: '/news/:year/:month/:title/'}
+  - name: 'projects'
+    label: 'Projects'
+    folder: '_projects'
+    create: true
+    slug: '{{slug}}' # {{slug}} comes from title field
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Summary', name: 'summary', widget: 'string', 
+            hint: 'A short summary of the project. Appears on project list page'}
+      - { label: 'Date', name: 'date', widget: 'datetime', hint: 'Date for associated post' }
+      - { label: 'Long Post (optional)', name: 'body', widget: 'markdown', required: false, 
+            hint: 'If left blank then no separate post page will be linked to by the item.' }
+      # - { label: "Tags", name: "tags", widget: "list", default: ["news"] }
+      - { label: "Featured Image (optional)", name: "thumbnail", widget: "image", required: false,
+            hint: 'An image to accompany the project item. A small version is shown in list, and large item at top of post (if long-form)'}
+       # Hidden from CMS users 
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'permalink', name: 'permalink', widget: 'hidden', default: '/projects/:title'}
       

@@ -4,6 +4,7 @@ summary: This project is funded within the International Technology Alliance pro
 date: 2021-04-10T19:03:03.247Z
 website: 
 layout: post
+thumbail:
 permalink: /projects/declarative-networking
 ---
 
