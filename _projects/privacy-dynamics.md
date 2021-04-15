@@ -2,7 +2,7 @@
 title: "Privacy Dynamics: Learning from the Wisdom of Groups"
 summary: EPSRC project on privacy management looking at investigating how individuals learn and benefit from their membership of social or functional groups, and how such learning can be automated and incorporated into modern mobile and ubiquitous technologies that increasingly pervade society. The Principal Investigator is Dr Alessandra Russo. The project is in collaboration with the Open University and the University of Exeter. It is a three years project started in November 2013.
 date: 2021-04-10T19:03:03.247Z
-thumbnail: 
+website: http://www9.open.ac.uk/PrivacyDynamics/
 layout: post
 permalink: /projects/privacy-dynamics
 ---

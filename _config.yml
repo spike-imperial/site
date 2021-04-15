@@ -46,6 +46,10 @@ include:
   - _pages
   - _projects
 
+collections:
+  projects:
+    output: true
+
 # Conversion
 markdown: kramdown
 highlighter: rouge
