@@ -4,7 +4,7 @@ summary: EPSRC project on privacy management looking at investigating how indivi
 date: 2021-04-10T19:03:03.247Z
 thumbnail: 
 layout: post
-permalink: /projects/privacy-dinamics
+permalink: /projects/privacy-dynamics
 ---
 
 ## Overview
