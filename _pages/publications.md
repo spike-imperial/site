@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+id: "publications"
 layout: gridlay
 sitemap: false
 permalink: /publications/
@@ -15,8 +16,6 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
     margin-bottom:30px;
 }
 </style>
-
-## Publications
 
 <div class="jumbotron">
 ### Preprints

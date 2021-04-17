@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+id: "contact"
 layout: gridlay
 sitemap: false
 permalink: /contact/
@@ -16,8 +17,6 @@ crossorigin=""></script>
 <style>
 #mapid { height: 360px; }
 </style>
-
-## Contact 
 
 <div id="mapid"></div>
 <script>

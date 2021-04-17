@@ -16,8 +16,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav mr-auto">
         <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">Home</a>
+            <li class="nav-item {% if page.url == '/'%}active{% endif %}">
+                <a class="nav-link" href="{% if page.url == '/'%}#/{% else %}{{ site.url }}{{ site.baseurl }}{% endif %}">Home</a>
             </li> 
             {% for nav_page in site.nav_pages %}
                 {% if nav_page.subpages %}
@@ -30,8 +30,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </li>
                 {% else %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/{{nav_page.name}}">{{nav_page.name | capitalize }}</a>
+                    <li class="nav-item {% if nav_page.name == page.id %}active{% endif %}">
+                        <a class="nav-link" href="{% if nav_page.name == page.id %}#{% else %}{{ site.url }}{{ site.baseurl }}/{{nav_page.name}}{% endif %}">{{nav_page.name | capitalize }}</a>
                     </li> 
                 {% endif %}
             {% endfor %}

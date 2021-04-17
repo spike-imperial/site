@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+id: "projects"
 layout: gridlay
 sitemap: false
 permalink: /projects/
@@ -46,8 +47,6 @@ iframe {
     margin-right: 10px;
 }
 </style>
-
-## Projects
 
 {% for project in site.projects %}
 <!-- <div class="jumbotron"> 

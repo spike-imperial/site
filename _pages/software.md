@@ -1,5 +1,6 @@
 ---
 title: "Software"
+id: "software"
 layout: gridlay
 sitemap: false
 permalink: /software/
@@ -45,8 +46,6 @@ iframe {
     margin-right: 10px;
 }
 </style>
-
-## Software
 
 <div class="jumbotron">
 <div class="row align-items-end">

@@ -1,12 +1,10 @@
 ---
 title: "News"
+id: "news"
 layout: textlay
 sitemap: false
 permalink: /news.html
 ---
-
-## News
-
 
 <div class="jumbotron">
 {% for article in site.posts %}
