@@ -16,7 +16,20 @@ crossorigin=""></script>
 
 <style>
 #mapid { height: 360px; }
+
+.contact ul li i {
+    color: var(--primary);
+}
 </style>
+
+<div class="contact">
+
+
+<ul class="fa-ul">
+<li><span class="fa-li"><i class="fa fa-envelope-square fa-1x"></i></span><a href="mailto:a.russo@imperial.ac.uk">a.russo@imperial.ac.uk</a></li>
+<li><span class="fa-li"><i class="fa fa-map-marker fa-1x"></i></span>Deparment of Computing, Imperial College London, South Kensington Campus, London SW7 2AZ</li>
+</ul>
+</div>
 
 <div id="mapid"></div>
 <script>
