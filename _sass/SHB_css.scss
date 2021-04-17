@@ -3,7 +3,7 @@ img {
 }
 
 a {
-  color: #003E74;
+  color: var(--primary);
 }
 
 a:hover {
@@ -19,8 +19,14 @@ a:hover {
 
 .navbar {
   margin-bottom: 20px;
-  border-bottom: 4px solid var(--secondary);
+  border-bottom: 4px solid var(--primary);
 }
+
+/*
+.bg-dark.navbar-dark .navbar-nav .nav-link:hover {
+  font-weight: bold;
+  color: #D4EFFC !important;
+}*/
 
 .btn {
     margin-top: 5px;
