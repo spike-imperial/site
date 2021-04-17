@@ -22,11 +22,10 @@ a:hover {
   border-bottom: 4px solid var(--primary);
 }
 
-/*
-.bg-dark.navbar-dark .navbar-nav .nav-link:hover {
-  font-weight: bold;
-  color: #D4EFFC !important;
-}*/
+.bg-dark.navbar-dark .navbar-nav .nav-link:hover, .bg-dark.navbar-dark .navbar-nav .active > .nav-link {
+  /*font-weight: bold;*/
+  color: var(--blue) !important;
+}
 
 .btn {
     margin-top: 5px;
