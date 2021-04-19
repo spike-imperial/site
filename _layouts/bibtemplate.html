@@ -21,8 +21,10 @@ pre{
 </style>
 
 
-<div class="text-justify">
-{{reference }}</div>
+<div class="bib-entry bib-entry-type-{{entry.type}} bib-entry-year-{{entry.year}}">
+<div class="text-justify">{{reference}}</div>
+
+<!--{{entry}}-->
 
 {% assign bibtest = false %}
 {% if entry.file %}
@@ -33,7 +35,7 @@ pre{
   {% endif %}
 {% endfor %}
 {% endif %}
-
+<!--
 {% if bibtest %}
 <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
 {% endif %}
@@ -76,8 +78,9 @@ pre{
         {{tag}}
     </p>
     {% endfor %}
-{% endif %}
-    
+{% endif %}-->
+</div>
+
 <script>
 function toggleBibtex{{entry.key}}(parameter) {
     var x= document.getElementById('a{{entry.key}}');
