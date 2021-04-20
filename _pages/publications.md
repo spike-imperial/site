@@ -6,19 +6,12 @@ sitemap: false
 permalink: /publications/
 ---
 
-<button id="holy" type="button" class="btn btn-primary">Primary</button>
-
-<div class="dropdown">
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown link
-  </a>
-
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
-</div>
+<!-- https://stackoverflow.com/questions/51006763/uncaught-typeerror-cannot-read-property-setattribute-of-undefined-at-object-o -->
+<select id="dropdown-year-filter" class="btn btn-primary dropdown-toggle" role="button" v-model="selected" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuLink">
+    <option class="dropdown-item" value="all">All</option>
+    <option class="dropdown-item" value="2019">2019</option>
+    <option class="dropdown-item" value="2020">2020</option>
+</select>
 
 {% bibliography %}
 
@@ -27,8 +20,14 @@ $(document).ready(function() {
     $(".bibliography").addClass("list-group list-group-flush");
     $(".bibliography li").addClass("list-group-item");
 
-    $("#holy").click(function() {
-        $(".bib-entry-year-2020").parent().hide();
+    $("#dropdown-year-filter").on("change", function() {
+        if ($(this).val() == 'all') {
+            $(".bib-entry").parent().show();
+        }
+        else {
+            $(".bib-entry").parent().hide();
+            $(".bib-entry-year-" + $(this).val()).parent().show();
+        }
     });
 });
 </script>
