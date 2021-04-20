@@ -51,16 +51,33 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Summary', name: 'summary', widget: 'string', 
+      - { label: 'Title', name: 'title', widget: string }
+      - { label: 'Summary', name: 'summary', widget: string, 
             hint: 'A short summary of the project. Appears on project list page'}
       - { label: 'Date', name: 'date', widget: 'datetime', hint: 'Date for associated post' }
-      - { label: 'Long Post (optional)', name: 'body', widget: 'markdown', required: false, 
+      - { label: 'Long Post (optional)', name: 'body', widget: markdown, required: false, 
             hint: 'If left blank then no separate post page will be linked to by the item.' }
       # - { label: "Tags", name: "tags", widget: "list", default: ["news"] }
-      - { label: "Featured Image (optional)", name: "thumbnail", widget: "image", required: false,
+      - { label: "Featured Image (optional)", name: "thumbnail", widget: image, required: false,
             hint: 'An image to accompany the project item. A small version is shown in list, and large item at top of post (if long-form)'}
        # Hidden from CMS users 
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'permalink', name: 'permalink', widget: 'hidden', default: '/projects/:title'}
       
+  - name: "research"
+    label: "Research Focus List"
+    folder: "_data"
+    format: "yaml"
+    create: false
+    filter: {field: "file_identifier", value: "This is the research interests file!"}
+    slug: 'research_interests.yml'
+    fields:
+      - name: file_identifier
+      - name: research_focuses
+        label: "Research Focuses"
+        widget: list
+        fields:
+          - {label: "Focus", name: focus, widget: hidden, default: "{{fields.title}}"}
+          - {label: "Focus Title", name: title, widget: string, default: "Solving AGI!"}
+          - {label: "Focus Description", name: description, widget: string}
+          - {label: "Focus Image", name: image, widget: image, required: false}
