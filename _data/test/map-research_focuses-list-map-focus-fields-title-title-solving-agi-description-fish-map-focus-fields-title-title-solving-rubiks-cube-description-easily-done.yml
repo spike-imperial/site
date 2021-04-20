@@ -1,7 +1,0 @@
-research_focuses:
-  - focus: "{{fields.title}}"
-    title: Solving AGI!
-    description: fish
-  - focus: "{{fields.title}}"
-    title: Solving rubiks cube
-    description: Easily done!
