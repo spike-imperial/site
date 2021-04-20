@@ -15,9 +15,9 @@ permalink: /publications/
 
 <select id="dropdown-type-filter" class="btn btn-primary dropdown-toggle dropdown-filter" role="button" v-model="selected" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuLink">
     <option class="dropdown-item" value="all">All</option>
-    <option class="dropdown-item" value="conference">Conference Proceedings</option>
-    <option class="dropdown-item" value="journal">Journal</option>
-    <option class="dropdown-item" value="preprint">Preprint</option>
+    <option class="dropdown-item" value="inproceedings">Conference Proceedings</option>
+    <option class="dropdown-item" value="article">Journal</option>
+    <option class="dropdown-item" value="unpublished">Preprint</option>
 </select>
 
 {% bibliography %}
