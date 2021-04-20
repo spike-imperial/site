@@ -18,6 +18,12 @@ pre{
     word-wrap: break-word; 
     width:100%; overflow-x:auto;
 }
+.bibtex-info {
+    background-color: var(--secondary); 
+    border-radius: 5px; 
+    padding: 10px; 
+    /*margin-bottom:20px;*/
+}
 </style>
 
 
@@ -35,6 +41,22 @@ pre{
   {% endif %}
 {% endfor %}
 {% endif %}
+
+
+{% if entry.url %}
+<a href="{{ entry.url }}" target="_blank"><button class="btn btn-primary btm-sm">PDF</button></a>
+{% endif %}
+
+{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
+<button class="btn btn-primary btm-sm" onclick="toggleBibtex({{entry.key}})">BIB</button>
+{% endif %}
+
+{% if entry.bibtex %}
+<div id="a{{entry.key}}" class="bibtex-info" style="display: none;">
+<pre>{{ entry.bibtex }}</pre>
+</div>
+{% endif %}
+
 <!--
 {% if bibtest %}
 <a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
@@ -48,10 +70,6 @@ pre{
 {% endif %}
 {% endif %}
 
-{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
-<button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{entry.key}}()">BIB</button>
-{% endif %}
-
 {% if entry.abstract %}
 <button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{entry.key}}()">ABSTRACT</button>
 {% endif %}
@@ -59,10 +77,6 @@ pre{
 {% if entry.abstract %}
 <div id="a{{entry.key}}" style="display: none; background-color:white; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{ entry.bibtex | remove: "entry.abstract" }}</pre>
-</div>
-{% else %}
-<div id="a{{entry.key}}" style="display: none; background-color:white; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>{{ entry.bibtex }}</pre>
 </div>
 {% endif %}
 
@@ -82,8 +96,8 @@ pre{
 </div>
 
 <script>
-function toggleBibtex{{entry.key}}(parameter) {
-    var x= document.getElementById('a{{entry.key}}');
+function toggleBibtex(parameter) {
+    var x= document.getElementById('a' + parameter.id);
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
