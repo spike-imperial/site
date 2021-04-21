@@ -26,12 +26,18 @@ pre{
 }
 </style>
 
+{% assign paper_type = entry.type %}
 
-<div class="bib-entry bib-entry-type-{{entry.type}} bib-entry-year-{{entry.year}}">
+{% if entry._type %}
+{% assign paper_type = entry._type %}
+{% endif %}
+
+<div class="bib-entry bib-entry-type-{{paper_type}} bib-entry-year-{{entry.year}}">
 <div class="text-justify">{{reference}}</div>
 
 <!--{{entry}}-->
 
+<!--
 {% assign bibtest = false %}
 {% if entry.file %}
 {% assign bibfile = "/papers/" | append: entry.file %}
@@ -41,7 +47,7 @@ pre{
   {% endif %}
 {% endfor %}
 {% endif %}
-
+-->
 
 {% if entry._pdf %}
 <a href="{{ entry._pdf }}" target="_blank"><button class="btn btn-primary btm-sm">PDF</button></a>
@@ -51,7 +57,7 @@ pre{
 <a href="{{ entry._code }}" target="_blank"><button class="btn btn-primary btm-sm">Code</button></a>
 {% endif %}
 
-{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'phdthesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
+{% if paper_type == 'unpublished' or paper_type == 'article' or paper_type == 'phdthesis' or paper_type == 'inproceedings' or paper_type == 'report' or paper_type == 'workshop' %}
 <button class="btn btn-primary btm-sm" onclick="toggleBibtex({{ entry.key }})">BIB</button>
 {% endif %}
 

@@ -4,6 +4,7 @@ id: "publications"
 layout: gridlay
 sitemap: false
 permalink: /publications/
+years: [2021, 2020, 2019]
 ---
 
 <style>
@@ -25,6 +26,7 @@ permalink: /publications/
 <option class="dropdown-item" value="article">Journal</option>
 <option class="dropdown-item" value="unpublished">Preprint</option>
 <option class="dropdown-item" value="phdthesis">Thesis</option>
+<option class="dropdown-item" value="workshop">Workshop</option>
 </select>
 </div>
 
@@ -33,8 +35,10 @@ permalink: /publications/
 <label for="dropdown-year-filter">Year</label>
 <select id="dropdown-year-filter" class="btn btn-primary dropdown-toggle dropdown-filter" role="button" v-model="selected" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuLink">
 <option class="dropdown-item" value="all">All</option>
+<option class="dropdown-item" value="2021">2021</option>
 <option class="dropdown-item" value="2020">2020</option>
 <option class="dropdown-item" value="2019">2019</option>
+<option class="dropdown-item" value="2018">2018</option>
 </select>
 </div>
 </div>
