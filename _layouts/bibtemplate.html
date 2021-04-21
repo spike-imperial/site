@@ -43,11 +43,15 @@ pre{
 {% endif %}
 
 
-{% if entry.url %}
-<a href="{{ entry.url }}" target="_blank"><button class="btn btn-primary btm-sm">PDF</button></a>
+{% if entry._pdf %}
+<a href="{{ entry._pdf }}" target="_blank"><button class="btn btn-primary btm-sm">PDF</button></a>
 {% endif %}
 
-{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
+{% if entry._code %}
+<a href="{{ entry._code }}" target="_blank"><button class="btn btn-primary btm-sm">Code</button></a>
+{% endif %}
+
+{% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'phdthesis' or entry.type == 'inproceedings' or entry.type == 'report' %}
 <button class="btn btn-primary btm-sm" onclick="toggleBibtex({{ entry.key }})">BIB</button>
 {% endif %}
 
