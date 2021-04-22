@@ -69,7 +69,7 @@ kramdown:
 plugins: ['jekyll/scholar']
 
 scholar:
-  style: apa
+  style: /publications/custom-apa.csl
   locale: en
 
   source: /publications/
