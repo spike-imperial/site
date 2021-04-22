@@ -1906,8 +1906,8 @@
               <text macro="event"/>
               <text macro="publisher"/>
             </group>
-            <!--<text macro="access"/>-->
-            <text macro="publication-history"/>
+            <!--<text macro="access"/>--> <!-- Daniel: to hide the url here-->
+            <!--<text macro="publication-history"/>-->
           </group>
         </else>
       </choose>
