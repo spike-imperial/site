@@ -4,7 +4,6 @@ id: "publications"
 layout: gridlay
 sitemap: false
 permalink: /publications/
-years: [2021, 2020, 2019]
 ---
 
 <style>
@@ -39,6 +38,7 @@ years: [2021, 2020, 2019]
 <option class="dropdown-item" value="2020">2020</option>
 <option class="dropdown-item" value="2019">2019</option>
 <option class="dropdown-item" value="2018">2018</option>
+<option class="dropdown-item" value="2017">2017</option>
 </select>
 </div>
 </div>
