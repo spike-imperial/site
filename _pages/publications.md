@@ -21,6 +21,7 @@ permalink: /publications/
 <label for="dropdown-type-filter">Type</label>
 <select id="dropdown-type-filter" class="btn btn-primary dropdown-toggle dropdown-filter" role="button" v-model="selected" aria-haspopup="true" aria-expanded="false" aria-labelledby="dropdownMenuLink">
 <option class="dropdown-item" value="all">All</option>
+<option class="dropdown-item" value="book">Book</option>
 <option class="dropdown-item" value="inproceedings">Conference Proceedings</option>
 <option class="dropdown-item" value="article">Journal</option>
 <option class="dropdown-item" value="unpublished">Preprint</option>
@@ -40,6 +41,22 @@ permalink: /publications/
 <option class="dropdown-item" value="2018">2018</option>
 <option class="dropdown-item" value="2017">2017</option>
 <option class="dropdown-item" value="2016">2016</option>
+<option class="dropdown-item" value="2015">2015</option>
+<option class="dropdown-item" value="2014">2014</option>
+<option class="dropdown-item" value="2013">2013</option>
+<option class="dropdown-item" value="2012">2012</option>
+<option class="dropdown-item" value="2011">2011</option>
+<option class="dropdown-item" value="2010">2010</option>
+<option class="dropdown-item" value="2009">2009</option>
+<option class="dropdown-item" value="2008">2008</option>
+<option class="dropdown-item" value="2007">2007</option>
+<option class="dropdown-item" value="2006">2006</option>
+<option class="dropdown-item" value="2005">2005</option>
+<option class="dropdown-item" value="2004">2004</option>
+<option class="dropdown-item" value="2003">2003</option>
+<option class="dropdown-item" value="2002">2002</option>
+<option class="dropdown-item" value="2001">2001</option>
+<option class="dropdown-item" value="2000">2000</option>
 </select>
 </div>
 </div>

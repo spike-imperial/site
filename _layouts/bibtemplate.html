@@ -49,15 +49,15 @@ pre{
 {% endif %}
 -->
 
-{% if entry._pdf %}
-<a href="{{ entry._pdf }}" target="_blank"><button class="btn btn-primary btm-sm">PDF</button></a>
+{% if entry.url %}
+<a href="{{ entry.url }}" target="_blank"><button class="btn btn-primary btm-sm">PDF</button></a>
 {% endif %}
 
 {% if entry._code %}
 <a href="{{ entry._code }}" target="_blank"><button class="btn btn-primary btm-sm">Code</button></a>
 {% endif %}
 
-{% if paper_type == 'unpublished' or paper_type == 'article' or paper_type == 'phdthesis' or paper_type == 'inproceedings' or paper_type == 'report' or paper_type == 'workshop' %}
+{% if paper_type == 'unpublished' or paper_type == 'article' or paper_type == 'phdthesis' or paper_type == 'inproceedings' or paper_type == 'report' or paper_type == 'workshop' or paper_type == 'book' %}
 <button class="btn btn-primary btm-sm" onclick="toggleBibtex({{ entry.key }})">BIB</button>
 {% endif %}
 
