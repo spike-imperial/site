@@ -75,8 +75,8 @@ scholar:
   source: /publications/
   bibliography: ref.bib
   bibliography_template: bibtemplate
-  sort_by: year
-  order: descending
+  sort_by: year,author
+  order: descending,ascending
 
   replace_strings: true
   join_strings: true

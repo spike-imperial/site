@@ -57,6 +57,11 @@ permalink: /publications/
 <option class="dropdown-item" value="2002">2002</option>
 <option class="dropdown-item" value="2001">2001</option>
 <option class="dropdown-item" value="2000">2000</option>
+<option class="dropdown-item" value="1999">1999</option>
+<option class="dropdown-item" value="1998">1998</option>
+<option class="dropdown-item" value="1997">1997</option>
+<option class="dropdown-item" value="1996">1996</option>
+<option class="dropdown-item" value="1992">1992</option>
 </select>
 </div>
 </div>
