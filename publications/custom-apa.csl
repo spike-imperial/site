@@ -1898,13 +1898,13 @@
         </if>
         <else>
           <group delimiter=" ">
-            <group delimiter=". " suffix=".">
-              <text macro="author-bib"/>
-              <text macro="date-bib"/>
+            <group delimiter=". " suffix="">  <!-- Daniel: Removed . suffix -->
+              <text macro="author-bib" display="block"/> <!-- Daniel: display block forces line break -->
               <text macro="title-and-descriptions"/>
               <text macro="container"/>
               <text macro="event"/>
               <text macro="publisher"/>
+              <text macro="date-bib"/>
             </group>
             <!--<text macro="access"/>--> <!-- Daniel: to hide the url here-->
             <!--<text macro="publication-history"/>-->
