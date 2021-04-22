@@ -1,6 +1,6 @@
 - name: Alessandra
   surname: Russo
-  groups: "pi"
+  groups: ["pi"]
   institution: Imperial College London
   social:
     scholar: https://scholar.google.co.uk/citations?user=_6zceo4AAAAJ
@@ -83,6 +83,7 @@
   institution: Imperial College London
   social:
     scholar: https://scholar.google.com/citations?user=Z_aIahwAAAAJ
+    website: https://www.doc.ic.ac.uk/~ha3313
   
 - name: Harry
   surname: Stromfelt
