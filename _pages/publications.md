@@ -39,6 +39,7 @@ permalink: /publications/
 <option class="dropdown-item" value="2019">2019</option>
 <option class="dropdown-item" value="2018">2018</option>
 <option class="dropdown-item" value="2017">2017</option>
+<option class="dropdown-item" value="2016">2016</option>
 </select>
 </div>
 </div>
