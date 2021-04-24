@@ -9,19 +9,14 @@ local_backend: true # For local modifcations of cms
 
 media_folder: 'assets/uploads'
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: '_posts/'
-    fields:
-      - { name: Title }
-  - name: 'bibliography'
-    label: 'bibliography'
-    folder: 'publications/'
-    extension: '.bib'
-    format: 'frontmatter'
-    fields:
-     - { name: body }
-    # files: ['ref.bib' ]
+  # - name: 'bibliography'
+  #   label: 'bibliography'
+  #   folder: 'publications/'
+  #   extension: '.bib'
+  #   format: 'frontmatter'
+  #   fields:
+  #    - { name: body }
+  #   # files: ['ref.bib' ]
   - name: 'news'
     label: 'News'
     folder: '_posts/news/'
@@ -80,4 +75,18 @@ collections:
           - {label: "Focus", name: focus, widget: hidden, default: "{{fields.title}}"}
           - {label: "Focus Title", name: title, widget: string, default: "Solving AGI!"}
           - {label: "Focus Description", name: description, widget: string}
-          - {label: "Focus Image", name: image, widget: image, required: false}
+          - {label: "Focus Image", name: image, widget: image, required: false}      
+  - name: "homepage"
+    label: "Home Page"
+    folder: "_pages"
+    format: frontmatter
+    create: false
+    filter: {field: "file_identifier", value: "This is the homepage file!"}
+    slug: 'home.md'
+    fields:
+      - {label: file_identifier, name: 'file_identifier', widget: hidden, default: 'homepage_file'}
+      - {label: title, name: 'title', widget: hidden, default: 'Home'}
+      - {label: layout, name: 'layout', widget: hidden, default: 'homelay'}
+      - {label: sitemap, name: 'sitemap', widget: hidden, default: 'false'}
+      - {label: permalink, name: 'permalink', widget: hidden, default: '/'}      
+      - {label: 'Long Post (optional)', name: 'body', widget: markdown}

@@ -1,13 +1,37 @@
 
-
-<div class="jumbotron">
-  <h4>News</h4>
-
-  {% for article in site.posts limit:5 %}
-  <b>{{ article.date  | date: "%b %d, %Y" }}</b>
-    <p>{{ article.title }}</p>
-  {% endfor %}
+{% raw %}
+<!-- <div class="row mb-1">
+  <div class="col-md-12">
   
-  <h5><a href="{{ site.url }}{{ site.baseurl }}/news.html">... see all News</a></h5>
+  
+  <ol class="list-group list-group-flush">
+  {% for article in site.posts %}
+  {% assign content = article.content | strip_newlines %}
+  {% if content != '' %}
+  <a href="{{article.url}}" class="list-group-item list-group-item-action flex-column align-items-start ">
+  {% else %}
+  <div class="list-group-item ">
+  {% endif %}
+  <div class="d-flex w-100 justify-content-between">
+  <h5 class="mb-1">{{ article.title }}</h5>
+  <small>{{ article.date | date: "%b %d, %Y" }}</small>
+  </div>
+  <p class="mb-1">{{article.summary}}</p> -->
+{% endraw %}
 
+<!-- <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"> -->
+<!-- border -->
+<div class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+<div class="col p-4 d-flex flex-column position-static">
+<h3>News</h3>
+
+{% for article in site.posts limit:4 %}
+<div class="d-flex w-100 justify-content-between">
+  <h7 class="mb-1">{{ article.title }}</h7>
+  <small style="color:gray">{{ article.date | date: "%b %d" }}</small>
+</div>
+{% endfor %}
+<br>
+<h6><a href="{{ site.url }}{{ site.baseurl }}/news.html">... see all News</a></h6>
+</div>
 </div>
