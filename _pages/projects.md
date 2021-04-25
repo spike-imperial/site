@@ -42,7 +42,7 @@ permalink: /projects/
 {% assign content = project.content | strip_newlines %}
 {% if content != '' %}
 <div style="text-align: right;">
-<a href="{{project.url}}" class="stretched-link" >Continue reading</a>
+<a href="{{project.url}}" class="stretched-link" >Read more</a>
 </div>
 {% endif %}
 </div>
