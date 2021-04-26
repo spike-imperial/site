@@ -9,4 +9,5 @@ tags:
   - news
 layout: post
 permalink: /news/:year/:month/:title/
+type: news
 ---

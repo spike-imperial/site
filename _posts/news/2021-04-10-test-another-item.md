@@ -8,5 +8,6 @@ tags:
   - fish
   - frog
 permalink: /news/:year/:month/:title/
+type: news
 ---
 YEs I have a body!!

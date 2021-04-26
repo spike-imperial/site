@@ -11,6 +11,7 @@ permalink: /news.html
 
 <ol class="list-group list-group-flush">
 {% for article in site.posts %}
+{% if article.type == 'news' %}
 {% assign content = article.content | strip_newlines %}
 {% if content != '' %}
 <a href="{{article.url}}" class="list-group-item list-group-item-action flex-column align-items-start ">
@@ -26,6 +27,7 @@ permalink: /news.html
 </a>
 {% else %}
 </div>
+{% endif %}
 {% endif %}
 {% endfor %}
 </ol>

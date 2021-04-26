@@ -25,7 +25,6 @@ collections:
     editor:
       preview: false
     fields:
-
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Summary', name: 'summary', widget: 'string', 
             hint: 'A short, snappy summary of the news item. Appears on [truncated] frontpage, and in news list'}
@@ -38,6 +37,7 @@ collections:
        # Hidden from CMS users 
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'permalink', name: 'permalink', widget: 'hidden', default: '/news/:year/:month/:title/'}
+      - { label: 'type', name: 'type', widget: 'hidden', default: 'news'}
   - name: 'projects'
     label: 'Projects'
     folder: '_projects'
@@ -90,3 +90,31 @@ collections:
       - {label: sitemap, name: 'sitemap', widget: hidden, default: 'false'}
       - {label: permalink, name: 'permalink', widget: hidden, default: '/'}      
       - {label: 'Long Post (optional)', name: 'body', widget: markdown}
+  - name: 'software'
+    label: 'Software'
+    folder: '_posts/software/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Conform with jekyll post format. {{slug}} comes from title field
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string'}
+      - { label: 'Logo', name: 'logo', widget: 'image', required: false,
+            hint: 'Optional logo - shown above the title',
+            media_folder: '/assets/images/software'}
+      # TODO add a date field?
+      - { label: 'Description', name: 'body', widget: 'markdown', required: false, 
+            hint: 'Optional Description of the software' }
+      - { label: "Featured Image (optional)", name: "thumbnail", widget: "image", required: false,
+            hint: 'An image to accompany the software item. Showns to the right of the description',
+            media_folder: '/assets/images/software'}
+      - { label: "Github Link", name: 'github', widget: 'string', required: false,
+            hint: 'Optional link to github page'}
+      - { label: "Webpage Link", name: 'webpage', widget: 'string', required: false,
+            hint: 'Optional link to software page'}
+      - { label: "Paper Link", name: 'paper', widget: 'string', required: false,
+            hint: 'Optional link to relevant paper'}
+       # Hidden from CMS users 
+      - { label: 'permalink', name: 'permalink', widget: 'hidden', default: '/news/:year/:month/:title/'}
+      - { label: 'type', name: 'type', widget: 'hidden', default: 'software'}

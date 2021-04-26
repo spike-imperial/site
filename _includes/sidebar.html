@@ -26,10 +26,12 @@
 <h3>News</h3>
 
 {% for article in site.posts limit:4 %}
+{% if article.type == 'news' %}
 <div class="d-flex w-100 justify-content-between">
   <h7 class="mb-1">{{ article.title }}</h7>
   <small style="color:gray">{{ article.date | date: "%b %d" }}</small>
 </div>
+{% endif %}
 {% endfor %}
 <br>
 <h6><a href="{{ site.url }}{{ site.baseurl }}/news.html">... see all News</a></h6>
