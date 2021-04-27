@@ -68,6 +68,7 @@ collections:
     slug: 'research_interests.yml'
     fields:
       - name: file_identifier
+        widget: hidden
       - name: research_focuses
         label: "Research Focuses"
         widget: list
