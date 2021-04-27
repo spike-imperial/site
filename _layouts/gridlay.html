@@ -1,6 +1,41 @@
 ---
 layout: default
 ---
-<div id="gridid" class="col-sm-12 col-xs-12">
+{% raw %}
+<style>
+  #loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid var(--primary); /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    text-align: center;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .hidden {
+    display: none;
+  } 
+</style>
+{% endraw %}
+
+<div id="loader" style></div>
+<div id="gridid" class="col-sm-12 col-xs-12 hidden">
   {{ content }}
 </div>
+
+
+{% raw %}
+<script>
+$(document).ready(function() {
+  $("#loader").addClass("hidden");
+  $("#gridid").removeClass("hidden");
+})
+</script>
+{% endraw %}
