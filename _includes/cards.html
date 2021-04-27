@@ -1,0 +1,15 @@
+{% for focus in site.data.research_interests.research_focuses %}
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        {% if focus.image != nil %}
+        <img class="bd-placeholder-img"  height="200px"  aria-hidden="true" src="{{focus.image}}" style="object-fit: cover; border-radius:3px 3px 0px 0px;">
+        {% else %}
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        {% endif %}
+        <div class="card-body">
+            <h4>{{ focus.title }}</h4>
+            <p class="card-text">{{ focus.description }}</p>
+        </div>
+    </div>
+</div>
+{% endfor %}
