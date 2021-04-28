@@ -88,7 +88,9 @@
   
 - name: Harry
   surname: Stromfelt
-  
+  groups: ["phd-student"]
+  institution: Imperial College London
+
 - name: Nuri
   surname: Cingillioglu
   groups: ["phd-student"]
