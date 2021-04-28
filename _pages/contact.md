@@ -2,7 +2,7 @@
 title: "Contact"
 id: "contact"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /contact/
 ---
 

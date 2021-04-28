@@ -1,7 +1,7 @@
 ---
 title: "Alumni"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /alumni/
 ---
 

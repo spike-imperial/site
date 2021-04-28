@@ -2,7 +2,7 @@
 title: "Projects"
 id: "projects"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /projects/
 ---
 

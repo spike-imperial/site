@@ -1,7 +1,7 @@
 ---
 title: "Talks"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /talks/
 ---
 

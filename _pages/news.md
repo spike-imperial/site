@@ -2,7 +2,7 @@
 title: "News"
 id: "news"
 layout: textlay
-sitemap: false
+sitemap: true
 permalink: /news.html
 ---
 <div class="row mb-1">

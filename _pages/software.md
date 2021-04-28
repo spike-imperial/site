@@ -2,7 +2,7 @@
 title: "Software"
 id: "software"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /software/
 ---
 

@@ -48,6 +48,10 @@ GEM
       citeproc-ruby (~> 1.0)
       csl-styles (~> 1.0)
       jekyll (~> 4.0)
+    jekyll-seo-tag (2.6.1)
+      jekyll (>= 3.3, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.1)
@@ -87,6 +91,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 4.1.1)
   jekyll-scholar
+  jekyll-seo-tag
+  jekyll-sitemap
   kramdown-parser-gfm
   rack (>= 2.2.3)
   sassc (> 2.0.1)

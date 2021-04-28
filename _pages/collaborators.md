@@ -1,7 +1,7 @@
 ---
 title: "Collaborators"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /collaborators/
 ---
 

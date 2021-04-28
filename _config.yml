@@ -3,7 +3,7 @@ title: SPIKE Research Group
 email: spencer@caltech.edu
 description: Webpage of the SPIKE Research Group at Imperial College London
 baseurl: ""
-url: ""
+url: "spike.doc.ic.ac.u"
 
 # Google analytics ID: Remove or use your own!
 google_analytics: UA-167467135-1
@@ -68,6 +68,8 @@ kramdown:
 
 plugins: 
   - 'jekyll/scholar'
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 scholar:
   style: /publications/custom-apa.csl

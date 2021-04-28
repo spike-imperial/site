@@ -2,7 +2,7 @@
 file_identifier: This is the homepage file!
 title: Home
 layout: homelay
-sitemap: false
+sitemap: true
 permalink: /
 ---
 

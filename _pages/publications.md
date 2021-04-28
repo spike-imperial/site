@@ -2,7 +2,7 @@
 title: "Publications"
 id: "publications"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /publications/
 ---
 

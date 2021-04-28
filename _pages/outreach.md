@@ -2,7 +2,7 @@
 title: "Outreach"
 id: "outreach"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /outreach/
 ---
 

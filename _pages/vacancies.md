@@ -1,7 +1,7 @@
 ---
 title: "Vacancies"
 layout: textlay
-sitemap: false
+sitemap: true
 permalink: /vacancies
 ---
 

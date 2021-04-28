@@ -88,7 +88,7 @@ collections:
       - {label: file_identifier, name: 'file_identifier', widget: hidden, default: 'homepage_file'}
       - {label: title, name: 'title', widget: hidden, default: 'Home'}
       - {label: layout, name: 'layout', widget: hidden, default: 'homelay'}
-      - {label: sitemap, name: 'sitemap', widget: hidden, default: 'false'}
+      - {label: sitemap, name: 'sitemap', widget: hidden, default: 'true'}
       - {label: permalink, name: 'permalink', widget: hidden, default: '/'}      
       - {label: 'Long Post (optional)', name: 'body', widget: markdown}
   - name: 'software'
