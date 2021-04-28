@@ -100,28 +100,4 @@ a:hover {
   background-image: url($baseurl + "/images/thumbs/spleen.jpg");
 }
 
-// teams
-.networks {
-    text-align: center;
-}
-
-.networks ul {
-    display: inline-flex; 
-    flex-direction: row; 
-    flex-wrap: wrap; 
-    justify-content: center; 
-    list-style: none; 
-    padding: 0; 
-    margin: 0;
-}
-
-.networks li {
-    margin-right: 10px;
-}
-
-.team-role {
-    text-align: center;
-    margin-top: 0.5em;
-}
-
 
