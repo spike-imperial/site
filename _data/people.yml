@@ -46,6 +46,7 @@
     scholar: https://scholar.google.com/citations?user=Jfp2pAQAAAAJ
     github: https://github.com/afspies
     website: https://afspies.com/
+  photo: aspies.png
 
 - name: Daniel 
   surname: Cunnington
@@ -87,7 +88,9 @@
   
 - name: Harry
   surname: Stromfelt
-  
+  groups: ["phd-student"]
+  institution: Imperial College London
+
 - name: Nuri
   surname: Cingillioglu
   groups: ["phd-student"]
@@ -115,6 +118,7 @@
   surname: Xia
   groups: ["phd-student"]
   institution: Imperial College London
+  photo: sxia.jpg
   
 - name: Yaniv 
   surname: Aspis
