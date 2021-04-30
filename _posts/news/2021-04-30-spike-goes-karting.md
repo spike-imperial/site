@@ -2,7 +2,7 @@
 title: SPIKE Goes Karting
 summary: PhD Students in the group went Go-Karting! Our performance was
   excellent, but not as fast as ILASP.
-date: 2021-04-30T10:42:57.921Z
+date: 2021-01-04T11:42:57.921Z
 tags:
   - news
 thumbnail: http://wwwf.imperial.ac.uk/blog/icpostgrad/files/2021/01/Capture-2-768x577.png
