@@ -165,14 +165,6 @@
   social:
     website: http://www.cs.ucy.ac.cy/~antonis/
     scholar: https://scholar.google.co.uk/citations?user=PrU4wEsAAAAJ
-  
-- name: Arosha 
-  surname: Bandara
-  groups: ["external-academic-collaborator"]
-  institution: The Open University, UK
-  social:
-    website: http://mcs.open.ac.uk/ban25/
-    scholar: https://scholar.google.com/citations?user=eYWisq0AAAAJ
 
 - name: Artur 
   surname: d'Avila Garcez
@@ -312,11 +304,15 @@
   
 - name: Arosha 
   surname: Bandara
-  groups: ["alumni"]
+  groups: ["alumni", "external-academic-collaborator"]
+  institution: The Open University, UK
   alumni: 
     role: PhD Student
     start: 2002
     end: 2005
+  social:
+    website: http://mcs.open.ac.uk/ban25/
+    scholar: https://scholar.google.com/citations?user=eYWisq0AAAAJ
 
 - name: Oliver 
   surname: Ray
