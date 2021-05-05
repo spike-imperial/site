@@ -26,7 +26,8 @@ crossorigin=""/>
 <li><span class="fa-li"><i class="fa fa-map-marker fa-1x"></i></span>Deparment of Computing, Imperial College London, South Kensington Campus, London SW7 2AZ</li>
 </ul>
 </div>
-
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.784489424611!2d-0.17706218352019895!3d51.49882217963374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760567da220a01%3A0x31911b371c692e86!2sImperial%20College%20London!5e0!3m2!1sen!2suk!4v1620213205423!5m2!1sen!2suk" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<!-- 
 <div id="mapid"></div>
 <script>
 $(document).ready(function(){
@@ -41,7 +42,7 @@ $(document).ready(function(){
     }).addTo(mymap);
     L.marker([51.4990, -0.1795]).addTo(mymap);
 });
-</script>
+</script> -->
 
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
 integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
