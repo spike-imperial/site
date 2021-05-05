@@ -1,5 +1,5 @@
 ---
-file_identifier: This is the homepage file!
+file_identifier: homepage_file
 title: Home
 layout: homelay
 sitemap: true

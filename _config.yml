@@ -24,16 +24,18 @@ information: >
 
 # Pages shown in navbar
 nav_pages:
-  - name: news
+  # - name: news
   - name: people
     subpages:
       - team
       - collaborators
       - alumni
-  - name: publications
-  - name: projects
+  - name: research
+    subpages:
+      - publications
+      - projects
+      - software
   - name: outreach
-  - name: software
   - name: contact
 
 include:

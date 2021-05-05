@@ -82,7 +82,7 @@ collections:
     folder: "_pages"
     format: frontmatter
     create: false
-    filter: {field: "file_identifier", value: "This is the homepage file!"}
+    filter: {field: "file_identifier", value: "homepage_file"}
     slug: 'home.md'
     fields:
       - {label: file_identifier, name: 'file_identifier', widget: hidden, default: 'homepage_file'}
@@ -90,7 +90,7 @@ collections:
       - {label: layout, name: 'layout', widget: hidden, default: 'homelay'}
       - {label: sitemap, name: 'sitemap', widget: hidden, default: 'true'}
       - {label: permalink, name: 'permalink', widget: hidden, default: '/'}      
-      - {label: 'Long Post (optional)', name: 'body', widget: markdown}
+      - {label: 'Page Content', name: 'body', widget: markdown}
   - name: 'software'
     label: 'Software'
     folder: '_posts/software/'
@@ -119,3 +119,17 @@ collections:
        # Hidden from CMS users 
       - { label: 'permalink', name: 'permalink', widget: 'hidden', default: '/news/:year/:month/:title/'}
       - { label: 'type', name: 'type', widget: 'hidden', default: 'software'}
+  - name: "outreach"
+    label: "Outreach Page"
+    folder: "_pages"
+    format: frontmatter
+    create: false
+    filter: {field: "file_identifier", value: "outreach_file"}
+    slug: 'outreach.md'
+    fields:
+      - {label: file_identifier, name: 'file_identifier', widget: hidden, default: 'outreach_file'}
+      - {label: title, name: 'title', widget: hidden, default: 'Home'}
+      - {label: layout, name: 'layout', widget: hidden, default: 'gridlay'}
+      - {label: sitemap, name: 'sitemap', widget: hidden, default: 'true'}
+      - {label: permalink, name: 'permalink', widget: hidden, default: '/outreach/'}      
+      - {label: 'Page Content', name: 'body', widget: markdown}
