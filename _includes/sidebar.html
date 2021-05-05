@@ -28,7 +28,14 @@
 {% for article in site.posts limit:4 %}
 {% if article.type == 'news' %}
 <div class="d-flex w-100 justify-content-between">
+{% assign content = article.content | strip_newlines %}
+{% if content != '' %}
+<a href="{{article.url}}" >
+{% endif %}
   <h7 class="mb-1">{{ article.title }}</h7>
+{% if content != '' %}
+</a>
+{% endif %}
   <small style="color:gray">{{ article.date | date: "%b %d" }}</small>
 </div>
 {% endif %}
