@@ -58,25 +58,44 @@ collections:
        # Hidden from CMS users 
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'permalink', name: 'permalink', widget: 'hidden', default: '/projects/:title'}
-      
-  - name: "research"
-    label: "Research Focus List"
-    folder: "_data"
-    format: "yaml"
-    create: false
-    filter: {field: "file_identifier", value: "This is the research interests file!"}
-    slug: 'research_interests.yml'
+       
+  - name: 'research_focus'
+    label: 'Research Focuses'
+    folder: '_posts/research_focus/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Conform with jekyll post format. {{slug}} comes from title field
+    editor:
+      preview: true
     fields:
-      - name: file_identifier
-        widget: hidden
-      - name: research_focuses
-        label: "Research Focuses"
-        widget: list
-        fields:
-          - {label: "Focus", name: focus, widget: hidden, default: "{{fields.title}}"}
-          - {label: "Focus Title", name: title, widget: string, default: "Solving AGI!"}
-          - {label: "Focus Description", name: description, widget: string}
-          - {label: "Focus Image", name: image, widget: image, required: false}      
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Summary', name: 'description', widget: 'string', 
+            hint: 'A short, snappy summary of the item. Appears on card on frontpage'}
+      - { label: 'Long Post (optional)', name: 'body', widget: 'markdown', required: false, 
+            hint: 'If left blank then no separate post page will be linked to by the item.' }
+      - { label: "Image", name: "thumbnail", widget: "image", required: false,
+            hint: 'An image to accompany the news item. A small version is shown in the card, and large item at top of post (if long-form)'}
+       # Hidden from CMS users 
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'type', name: 'type', widget: 'hidden', default: 'research_focus'}
+  # - name: "research"
+  #   label: "Research Focus List"
+  #   folder: "_data"
+  #   format: "yaml"
+  #   create: false
+  #   filter: {field: "file_identifier", value: "This is the research interests file!"}
+  #   slug: 'research_interests.yml'
+  #   fields:
+  #     - name: file_identifier
+  #       widget: hidden
+  #     - name: research_focuses
+  #       label: "Research Focuses"
+  #       widget: list
+  #       fields:
+  #         - {label: "Focus", name: focus, widget: hidden, default: "{{fields.title}}"}
+  #         - {label: "Focus Title", name: title, widget: string, default: "Solving AGI!"}
+  #         - {label: "Focus Description", name: description, widget: string}
+  #         - {label: "Focus Page (Optional)", name: long_description, widget: markdown, required: false}
+  #         - {label: "Focus Image", name: thumbnail, widget: image, required: false}      
   - name: "homepage"
     label: "Home Page"
     folder: "_pages"

@@ -1,7 +1,16 @@
-{% for focus in site.data.research_interests.research_focuses %}
+
+{% for focus in site.posts %}
+{% if focus.type == 'research_focus' %}
+{% assign content = focus.content | strip_newlines %}
+
 <div class="col-md-4">
+    {% if content != '' %}
+    <a href="{{focus.url}}" style="text-decoration: none;">
+    <div class="card cardlink mb-4 shadow-sm">
+    {% else %}
     <div class="card mb-4 shadow-sm">
-        {% if focus.image != nil %}
+    {% endif %}
+        {% if focus.thumbnail != nil %}
         <img class="bd-placeholder-img"  height="200px"  aria-hidden="true" src="{{focus.image}}" style="object-fit: cover; border-radius:3px 3px 0px 0px;">
         {% else %}
         <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
@@ -11,5 +20,9 @@
             <p class="card-text">{{ focus.description }}</p>
         </div>
     </div>
+    {% if content != '' %}
+    </a>
+    {% endif %}
 </div>
+{% endif %}
 {% endfor %}

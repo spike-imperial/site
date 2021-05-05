@@ -24,9 +24,10 @@
 <div class="row g-0 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
 <div class="col p-4 d-flex flex-column position-static">
 <h3>News</h3>
-
-{% for article in site.posts limit:4 %}
-{% if article.type == 'news' %}
+{% assign i = 0 %}
+{% for article in site.posts %}
+{% if article.type == 'news' and i < 6 %}
+{% assign i = i | plus:1 %}
 <div class="d-flex w-100 justify-content-between">
 {% assign content = article.content | strip_newlines %}
 {% if content != '' %}
