@@ -5,6 +5,7 @@ date: 2021-04-10T19:03:03.247Z
 website: http://www9.open.ac.uk/PrivacyDynamics/
 layout: post
 permalink: /projects/privacy-dynamics
+type: project
 ---
 
 ## Overview

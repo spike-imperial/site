@@ -21,7 +21,9 @@ permalink: /projects/
 }
 </style>
 
-{% for project in site.projects %}
+{% for project in site.posts %}
+{% if project.type == 'project' %}
+
 <!-- <div class="jumbotron"> 
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12"> -->
@@ -77,5 +79,6 @@ permalink: /projects/
 <!-- </div>
 </div>
 </div> --> 
+{% endif %}
 {% endfor %}
 

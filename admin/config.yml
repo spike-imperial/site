@@ -40,9 +40,9 @@ collections:
       - { label: 'type', name: 'type', widget: 'hidden', default: 'news'}
   - name: 'projects'
     label: 'Projects'
-    folder: '_projects'
+    folder: '_posts/projects'
     create: true
-    slug: '{{slug}}' # {{slug}} comes from title field
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # {{slug}} comes from title field
     editor:
       preview: false
     fields:
@@ -58,7 +58,7 @@ collections:
        # Hidden from CMS users 
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'permalink', name: 'permalink', widget: 'hidden', default: '/projects/:title'}
-       
+      - { label: 'type', name: 'type', widget: 'hidden', default: 'project'}
   - name: 'research_focus'
     label: 'Research Focuses'
     folder: '_posts/research_focus/'

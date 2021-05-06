@@ -11,6 +11,7 @@ website: null
 layout: post
 thumbail: null
 permalink: /projects/declarative-networking
+type: project
 ---
 ## Overview
 
