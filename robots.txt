@@ -2,7 +2,6 @@
 layout: none
 ---
 User-Agent: *
-Allow: /assets/images/
 Disallow: /assets/javascript/
- 
+Disallow: /assets/images/
 Sitemap: /sitemap.xml
