@@ -38,6 +38,18 @@
     start: 2013
     end: 2018
 
+- name: Duangtida
+  surname: Athakravi
+  groups: ["alumni"]
+  institution: Imperial College London
+  social:
+    linkedin: https://uk.linkedin.com/in/duangtida-athakravi-ab4885b9
+    researchgate: https://www.researchgate.net/profile/Duangtida-Athakravi
+  alumni:
+    role: PhD Student
+    start: 2011
+    end: 2015
+
 - name: Alex
   surname: Spies
   groups: ["phd-student"]
@@ -283,6 +295,17 @@
     role: PhD Student
     start: 2008
     end: 2011
+
+- name: Graham
+  surname: Deane
+  groups: ["alumni"]
+  alumni: 
+    role: PhD Student
+    start: 2011
+    end: 2016
+  social:
+    linkedin: https://uk.linkedin.com/in/grahamdeane
+    website: http://www.ubbc.co.uk
 
 - name: Jiefei
   surname: Ma
