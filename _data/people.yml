@@ -55,6 +55,8 @@
   social:
     scholar: https://scholar.google.co.uk/citations?user=36a0sxUAAAAJ
     github: https://github.com/DanCunnington
+    linkedin: https://uk.linkedin.com/in/dan-cunnington-94b0127b
+    twitter: https://twitter.com/DanCunnington
     website: https://researcher.watson.ibm.com/researcher/view.php?person=uk-DanCunnington
   photo: dcunnington.png
 
@@ -90,6 +92,7 @@
   social:
     scholar: https://scholar.google.com/citations?user=Z_aIahwAAAAJ
     website: https://www.doc.ic.ac.uk/~ha3313
+  photo: halnegheimish.jpg
   
 - name: Harry
   surname: Stromfelt
@@ -227,6 +230,14 @@
   social:
     website: https://www.ucl.ac.uk/information-studies/rob-miller
 
+- name: Antonis
+  surname: Bikakis
+  groups: ["external-academic-collaborator"]
+  institution: University College London, UK
+  social:
+    website: https://www.ucl.ac.uk/information-studies/antonis-bikakis
+  photo: abikakis.jpg
+
 - name: David 
   surname: Wood 
   groups: ["external-industrial-collaborator"]
@@ -261,7 +272,9 @@
   social:
     scholar: https://scholar.google.com/citations?user=fuknxZsAAAAJ
     github: https://github.com/pgomoluch
+    linkedin: https://www.linkedin.com/in/pawel-gomoluch/
     website: https://gomolu.ch/
+  photo: pgomoluch.jpg
 
 - name: Domenico
   surname: Corapi

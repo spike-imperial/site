@@ -40,9 +40,11 @@
 <div class="networks">
 <ul>
 {% if member.social.email %}<li><a href="mailto:{{ member.social.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a></li>{% endif %}
-{% if member.social.scholar %}<li><a href="{{ member.social.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a></li>{% endif %}
 {% if member.social.github %}<li><a href="{{ member.social.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a></li>{% endif %}
+{% if member.social.linkedin %}<li><a href="{{ member.social.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>{% endif %}
+{% if member.social.scholar %}<li><a href="{{ member.social.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a></li>{% endif %}
 {% if member.social.researchgate %}<li><a href="{{ member.social.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a></li> {% endif %}
+{% if member.social.twitter %}<li><a href="{{ member.social.twitter }}" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li> {% endif %}
 {% if member.social.website %}<li><a href="{{ member.social.website }}" target="_blank"><i class="fa fa-globe fa-2x"></i></a></li>{% endif %}
 </ul>
 </div>
