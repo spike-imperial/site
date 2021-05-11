@@ -90,6 +90,9 @@
   surname: Pace
   groups: ["phd-student"]
   institution: Imperial College London
+  research_areas:
+    - Deep Learning
+  photo: dpace.jpg
   
 - name: David
   surname: Tuckey
@@ -147,6 +150,9 @@
   groups: ["phd-student"]
   institution: Imperial College London
   photo: sxia.jpg
+  research_areas:
+    - Neural Symbolic Induction
+    - Knowledge Base Completion
   
 - name: Yaniv 
   surname: Aspis
@@ -184,6 +190,18 @@
   social:
     scholar: https://scholar.google.com/citations?user=v-rnR5UAAAAJ
     website: https://lafhis.dc.uba.ar/~suchitel/
+
+- name: Fabio Aurelio 
+  surname: D'Asaro
+  groups: ["external-academic-collaborator"]
+  institution: Università degli Studi di Milano, Italy
+  social:
+    website: http://fabiodasaro.com
+  research_areas:
+    - Logic Programming
+    - Probability
+    - Reasoning About Actions and Change
+  photo: fdasaro.jpg
 
 - name: Antonis C. 
   surname: Kakas
