@@ -261,12 +261,18 @@
   social:
     website: http://psychology.exeter.ac.uk/staff/profile/index.php?web_id=Mark_Levine
 
-- name: Robert
+- name: Rob
   surname: Miller
   groups: ["external-academic-collaborator"]
   institution: University College London, UK
   social:
     website: https://www.ucl.ac.uk/information-studies/rob-miller
+  photo: rmiller.jpg
+  research_areas:
+    - Logic
+    - Logic Programming
+    - Knowledge Representation
+    - Commonsense Reasoning
 
 - name: Antonis
   surname: Bikakis
