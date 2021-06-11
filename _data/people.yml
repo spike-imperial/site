@@ -286,7 +286,15 @@
     start: 2006
     end: 2009
   social:
-    website: https://uk.linkedin.com/in/luke-dickens-1099463
+    linkedin: https://uk.linkedin.com/in/luke-dickens-1099463
+    website: https://www.ucl.ac.uk/information-studies/dr-luke-dickens
+    scholar: https://scholar.google.com/citations?user=DtFpmGMAAAAJ
+    researchgate: https://www.researchgate.net/profile/Luke-Dickens
+  research_areas:
+    - Machine Learning
+    - Reinforcement Learning
+    - Representations
+  photo: ldickens.jpg
 
 - name: Mark 
   surname: Levine 
