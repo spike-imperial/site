@@ -23,8 +23,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             {% for nav_page in site.nav_pages %}
                 {% if nav_page.subpages %}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{nav_page.name | capitalize }}</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_{{nav_page.name}}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{nav_page.name | capitalize }}</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown_{{nav_page.name}}">
                             {% for subpage in nav_page.subpages %}
                                 <a class="dropdown-item" href="{{ site.baseurl }}/{{subpage}}">{{subpage | capitalize }}</a>
                             {% endfor %}
