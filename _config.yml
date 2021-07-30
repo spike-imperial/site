@@ -17,7 +17,8 @@ about: >
 
 information: >
     <a href="/contact"><i class="fa fa-envelope fa-1x"></i> Contact us</a> <br/>
-    <a href="/vacancies"><i class="fa fa-users fa-1x"></i> Explore openings</a>
+    <a href="/vacancies"><i class="fa fa-users fa-1x"></i> Explore openings</a> <br/>
+    <a href="/accessibility"><i class="fa fa-universal-access fa-1x"></i> Accessibility</a>
 
 # old information
 # <a href="/aboutwebsite.html"><i class="fa fa-github fa-1x"></i> Use my site as a template!</a> <br/>
