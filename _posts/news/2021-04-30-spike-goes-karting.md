@@ -5,7 +5,7 @@ summary: PhD Students in the group went Go-Karting! Our performance was
 date: 2021-01-04T11:42:57.921Z
 tags:
   - news
-thumbnail: http://wwwf.imperial.ac.uk/blog/icpostgrad/files/2021/01/Capture-2-768x577.png
+thumbnail: https://wwwf.imperial.ac.uk/blog/icpostgrad/files/2021/01/Capture-2-768x577.png
 layout: post
 permalink: /news/:year/:month/:title/
 type: news
