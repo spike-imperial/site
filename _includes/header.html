@@ -5,7 +5,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
 <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> -->
-  
+    
+
     <a class="navbar-brand" href="{{ site.baseurl }}/" >
      <img src="{{ site.baseurl }}/favicon.ico" width="30" height="30" style="margin-right:5px" class="d-inline-block align-top" alt="">
       {{ site.title | escape }}
@@ -40,3 +41,99 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </ul>
   </div>
 </nav>
+
+<div class="uc-banner">
+	<span class="uc-vert-center"></span>
+	<div class="uc-text-div">
+		<div class="uc-img"> <i class="fa fa-wrench fa-2x uc-vert-center"></i></div>
+		<div class="uc-text">
+			Under construction. Please check back soon for updates!
+		</div>
+		<div class="uc-img"> <i class="fa fa-wrench fa-2x uc-vert-center"></i></div>
+		<div style="clear:both"> </div>
+	</div>
+</div>
+<style>
+	  /*
+ Under Construction
+*/
+
+.uc-text-div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.uc-banner {
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffeb3b;
+    z-index: 99999;
+}
+.uc-img {
+    float: left;
+    padding: 0 3px;
+}
+.uc-vert-center {
+    line-height: 30px;
+}
+.uc-img-barrier {
+    height: 15px;
+}
+.uc-text {
+    float: left;
+    padding-top: 2px;
+    font-family: 'Allerta Stencil', sans-serif; /* google font, loaded on html page */
+    font-size: 8px;
+    color: #ad1457;
+}
+@media only screen and (min-width: 600px) {
+    .uc-banner {
+        position: fixed;
+        height: 40px;
+        width: 100%;
+        text-align: center;
+        background-color: #ffeb3b;
+        z-index: 99999;
+    }
+    .uc-img {
+        float: left;
+        padding: 0 15px;
+    }
+    .uc-vert-center {
+        line-height: 40px;
+    }
+    .uc-text {
+        float: left;
+        padding-top: 5px;
+        font-family: 'Allerta Stencil', sans-serif;
+        font-size: 16px;
+        color: #ad1457;
+    }
+}
+@media only screen and (min-width: 1170px) {
+    .uc-banner {
+        position: fixed;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        background-color: #ffeb3b;
+        z-index: 99999;
+    }
+    .uc-img {
+        float: left;
+        padding: 0 35px;
+    }
+    .uc-vert-center {
+        line-height: 50px;
+    }
+    .uc-text {
+        float: left;
+        padding-top: 0px;
+        font-family: 'Allerta Stencil', sans-serif; /* google font, loaded on html page */
+        font-size: 28px;
+        color: #ad1457;
+    }
+}
+</style>
