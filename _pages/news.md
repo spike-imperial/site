@@ -20,7 +20,7 @@ permalink: /news.html
 {% endif %}
 <div class="d-flex w-100 justify-content-between">
 <h5 class="mb-1" style="color:var(--primary)">{{ article.title }}</h5>
-<small style="color:gray">{{ article.date | date: "%b %d, %Y" }}</small>
+<small style="color:gray-dark">{{ article.date | date: "%b %d, %Y" }}</small>
 </div>
 <p class="mb-1">{{article.summary}}</p>
 {% if content != '' %}

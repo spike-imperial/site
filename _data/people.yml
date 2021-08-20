@@ -219,6 +219,40 @@
     website: https://www.staff.city.ac.uk/~aag/
     scholar: https://scholar.google.com/citations?user=BCpY0gsAAAAJ
 
+- name: Simoneta
+  surname: Caño de las Heras
+  groups: ["external-academic-collaborator"]
+  institution: DTU, Denmark
+  research_areas:
+    - Bioprocess System Engineering
+  social:
+    website: https://orbit.dtu.dk/en/persons/simoneta-caño-de-las-heras
+    linkedin: https://www.linkedin.com/in/simoneta-caño-de-las-heras-995aa9130/
+  photo: scano.jpeg
+
+- name: Ulrich 
+  surname: Krühne
+  groups: ["external-academic-collaborator"]
+  institution: DTU, Denmark
+  research_areas:
+    - Computational Fluid Dynamics
+    - Microfluidics
+  social:
+    website: https://orbit.dtu.dk/en/persons/ulrich-kr%C3%BChne
+  photo: ukruhne.jpg
+
+- name: Carina L.  
+  surname: Gargalo
+  groups: ["external-academic-collaborator"]
+  institution: DTU, Denmark
+  research_areas:
+    - Digital Twins
+    - Process Systems Engineering
+    - Sustainability
+  social:
+    linkedin: https://www.linkedin.com/in/carina-lira-gargalo/
+  photo: cgargalo.jpg
+
 - name: Bashar
   surname: Nuseibeh
   groups: ["external-academic-collaborator"]
@@ -252,7 +286,15 @@
     start: 2006
     end: 2009
   social:
-    website: https://uk.linkedin.com/in/luke-dickens-1099463
+    linkedin: https://uk.linkedin.com/in/luke-dickens-1099463
+    website: https://www.ucl.ac.uk/information-studies/dr-luke-dickens
+    scholar: https://scholar.google.com/citations?user=DtFpmGMAAAAJ
+    researchgate: https://www.researchgate.net/profile/Luke-Dickens
+  research_areas:
+    - Machine Learning
+    - Reinforcement Learning
+    - Representations
+  photo: ldickens.jpg
 
 - name: Mark 
   surname: Levine 
@@ -261,12 +303,18 @@
   social:
     website: http://psychology.exeter.ac.uk/staff/profile/index.php?web_id=Mark_Levine
 
-- name: Robert
+- name: Rob
   surname: Miller
   groups: ["external-academic-collaborator"]
   institution: University College London, UK
   social:
     website: https://www.ucl.ac.uk/information-studies/rob-miller
+  photo: rmiller.jpg
+  research_areas:
+    - Logic
+    - Logic Programming
+    - Knowledge Representation
+    - Commonsense Reasoning
 
 - name: Antonis
   surname: Bikakis
