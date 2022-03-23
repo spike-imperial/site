@@ -16,10 +16,12 @@ permalink: /team/
 {% assign sorting_criteria = "name" %}
 {% include_relative members.md %}
 
+<!--- 
 <h2 class="team-role">Post-Docs</h2>
 {% assign group = "post-doc" %}
 {% assign sorting_criteria = "name" %}
 {% include_relative members.md %}
+-->
 
 <h2 class="team-role">PhD Students</h2>
 {% assign group = "phd-student" %}
