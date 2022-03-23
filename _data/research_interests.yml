@@ -1,18 +1,18 @@
 file_identifier: This is the research interests file!
 research_focuses:
-  - focus: fish
-    title: fish
-    description: We like to eat fish
-  - focus: frog
-    title: also like frogs
-    description: They hop around and stuff
-  - focus: archery
-    title: We enjoy archery apparently
-    description: Alex is tired and doesn't know what to write
-  - focus: fishasdas
-    title: Solving AGI!
-    description: Damn right!
-  - focus: "{{fields.title}}"
-    title: Another Research Item
-    description: We are just so prolific
-    image: https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Frainerzitelmann%2Ffiles%2F2019%2F06%2FE0MG76-e1560965378507-1200x1270.jpg
+  - focus: Neurosymbolic AI
+    title: Neurosymbolic AI
+    description: Combining symbolic GOFAI with modern Deep Learning Approaches
+  - focus: Explainable AI
+    title: Explainable AI
+    description: Using symbolic representations to create interpretable models and generate explanations.
+  - focus: Inductive Logic Programming
+    title: Inductive Logic Programming
+    description: Generating logic programs to explain symbolic data in a robust and interpretable fashion.
+#   - focus: fishasdas
+#     title: Solving AGI!
+#     description: Damn right!
+#   - focus: "{{fields.title}}"
+#     title: Another Research Item
+#     description: We are just so prolific
+#     image: https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Frainerzitelmann%2Ffiles%2F2019%2F06%2FE0MG76-e1560965378507-1200x1270.jpg
