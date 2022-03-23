@@ -31,7 +31,7 @@
 
 <div class="col-lg-4 col-xl-4 mt-4 mb-3">
 <div class="avatar">
-<img src="{{ site.baseurl }}/assets/images/teampic/{% if member.photo %}{{ member.photo }}{% else %}default.jpg{% endif %}" class="rounded-circle d-block m-auto">
+<img src="{{ site.baseurl }}/assets/images/teampic/{% if member.photo %}{{ member.photo }}{% else %}default.png{% endif %}" class="rounded-circle d-block m-auto">
 </div>
 <h5 class="font-weight-bold" style="text-align: center">{{member.name}} {{member.surname}}</h5>
 {% if group == "alumni" %}<h6 style="text-align: center">{{member.alumni.role}}, {{member.alumni.start}}{% if member.alumni.end %}-{{member.alumni.end}}{% endif %}</h6>{% endif %}
