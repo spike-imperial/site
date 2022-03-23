@@ -129,7 +129,7 @@
   
 - name: Nuri
   surname: Cingillioglu
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
   social:
     github: https://github.com/nuric/
