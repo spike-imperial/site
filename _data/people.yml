@@ -54,6 +54,15 @@
     start: 2011
     end: 2015
 
+- name: Kitty
+  surname: Baugh
+  groups: ["phd-student"]
+  institution: Imperial College London
+  social:
+    github: https://github.com/kittykg
+    linkedin: https://www.linkedin.com/in/kexin-gu-9a0296151/?originalSubdomain=uk
+  photo: kbaugh.jpg
+
 - name: Alex
   surname: Spies
   groups: ["phd-student"]
