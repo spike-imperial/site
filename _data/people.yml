@@ -62,6 +62,16 @@
     github: https://github.com/kittykg
     linkedin: https://www.linkedin.com/in/kexin-gu-9a0296151/?originalSubdomain=uk
   photo: kbaugh.jpg
+  
+- name: Frederik
+  surname: Kelbel
+  groups: ["phd-student"]
+  institution: Imperial College London
+  social:
+    github: https://github.com/FreditorK
+    linkedin: https://www.linkedin.com/in/frederik-kelbel/
+    researchgate: https://www.researchgate.net/profile/Frederik-Kelbel
+  photo: fkelbel.png
 
 - name: Alex
   surname: Spies
