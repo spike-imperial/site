@@ -25,7 +25,7 @@ information: >
 
 # Pages shown in navbar
 nav_pages:
-  # - name: news
+  - name: news
   - name: people
     subpages:
       - team
