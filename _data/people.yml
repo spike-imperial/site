@@ -5,6 +5,7 @@
   social:
     scholar: https://scholar.google.co.uk/citations?user=_6zceo4AAAAJ
     website: https://wp.doc.ic.ac.uk/arusso/
+  photo: arusso.jpg
 
 - name: Krysia
   surname: Broda
@@ -12,7 +13,8 @@
   institution: Imperial College London
   social:
     website: http://wp.doc.ic.ac.uk/kb/
-
+  photo: kbroda.jpg
+  
 - name: Dalal
   surname: Alrajeh
   groups: ["pi", "alumni"]
@@ -24,10 +26,11 @@
     role: PhD Student
     start: 2005
     end: 2009
+  photo: dalrajeh.jpg
 
 - name: Mark
   surname: Law
-  groups: ["post-doc", "alumni"]
+  groups: ["alumni"]
   institution: Imperial College London
   social:
     scholar: https://scholar.google.com/citations?user=A5JWIs0AAAAJ
@@ -37,6 +40,7 @@
     role: PhD Student
     start: 2013
     end: 2018
+  photo: mlaw.jpg
 
 - name: Duangtida
   surname: Athakravi
@@ -121,7 +125,8 @@
   surname: Stromfelt
   groups: ["phd-student"]
   institution: Imperial College London
-
+  photo: hstromfelt.jpg
+  
 - name: Nuri
   surname: Cingillioglu
   groups: ["phd-student"]
@@ -139,6 +144,7 @@
   surname: Mekhtieva
   groups: ["phd-student"]
   institution: Imperial College London
+  photo: rmekhtieva.jpg
   
 - name: Ruben 
   surname: Vereecken
@@ -158,6 +164,7 @@
   surname: Aspis
   groups: ["phd-student"]
   institution: Imperial College London
+  photo: yaspis.jpg
   
 - name: Emil
   surname: Lupu
