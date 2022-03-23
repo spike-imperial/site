@@ -80,8 +80,13 @@
   social:
     scholar: https://scholar.google.com/citations?user=Jfp2pAQAAAAJ
     github: https://github.com/afspies
+    linkedin: https://www.linkedin.com/in/afspies
+    twitter: https://www.twitter.com/afspies
     website: https://afspies.com/
   photo: aspies.png
+  research_areas:
+    - Neurosymbolic Learning
+    - Object-centric Learning
 
 - name: Daniel 
   surname: Cunnington
@@ -95,7 +100,7 @@
     website: https://researcher.watson.ibm.com/researcher/view.php?person=uk-DanCunnington
   photo: dcunnington.png
   research_areas:
-    - Neural-Symbolic Learning
+    - Neurosymbolic Learning
 
 - name: Daniel 
   surname: Furelos-Blanco
