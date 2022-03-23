@@ -139,7 +139,8 @@
   surname: Rama
   groups: ["phd-student"]
   institution: Imperial College London
-  
+  photo: orama.jpg
+
 - name: Rakhilya 
   surname: Mekhtieva
   groups: ["phd-student"]
@@ -150,7 +151,8 @@
   surname: Vereecken
   groups: ["phd-student"]
   institution: Imperial College London
-    
+  photo: rvereecken.jpg
+  
 - name: Shuang 
   surname: Xia
   groups: ["phd-student"]
