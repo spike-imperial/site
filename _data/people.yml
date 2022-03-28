@@ -158,6 +158,10 @@
   social:
     github: https://github.com/nuric/
     website: https://www.doc.ic.ac.uk/~nuric/
+  alumni:
+    role: PhD Student
+    start: 2017
+    end: 2022
   photo: nuri.jpg
   
 - name: Osama
