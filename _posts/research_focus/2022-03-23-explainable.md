@@ -1,5 +1,5 @@
 ---
-title: Real-world applications
+title: Practical Applications
 description: Learning and reasoning over interpretable models to solve tasks and
   support human decision making.
 layout: post
