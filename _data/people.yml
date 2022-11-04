@@ -82,7 +82,6 @@
   surname: Pert
   groups: ["phd-student"]
   institution: Imperial College London
-  photo: aspies.png
   research_areas:
     - Neurosymbolic A.I.
     - Reinforcement Learning
