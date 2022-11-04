@@ -73,6 +73,16 @@
     linkedin: https://www.linkedin.com/in/frederik-kelbel/
     researchgate: https://www.researchgate.net/profile/Frederik-Kelbel
   photo: fkelbel.png
+  
+- name: Charles
+surname: Pert
+groups: ["phd-student"]
+institution: Imperial College London
+photo: fkelbel.png
+research_areas:
+  - Neurosymbolic A.I.
+  - Reinforcement Learning
+  - Deep Learning
 
 - name: Alex
   surname: Spies
