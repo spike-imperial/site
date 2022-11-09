@@ -7,13 +7,30 @@ jobs:
     steps:
       - name: Checkout repository content
         uses: actions/checkout@v3
-      
+
+      - name: Get changed files in publications
+        id: changed-files-pub
+        uses: tj-actions/changed-files@v34
+        with:
+          files: |
+            publications/**
+
+      - name: Get diff lines
+        id: diff
+        if: steps.changed-files-pub.outputs.any_changed == 'true'
+        run: |
+          echo "List all the files that have changed: ${{ steps.changed-files-pub.outputs.all_changed_files }}"
+          git show ${{ github.sha }}:publications/test.txt >> changes.txt
+          echo "CHANGES=changes.txt" >> $GITHUB_OUTPUT
+
+      - name: Cat the diff
+        run: cat ${{ steps.diff.outputs.CHANGES }}
+
       - name: Setup Python Version
         uses: actions/setup-python@v4
         with:
           python-version: 3.10.6
           cache: 'pip' # caching pip dependencies
-          working-directory: ./.github/workflows/twitter-action
 
       - name: Pip setup
         run: pip install -r requirements.txt
