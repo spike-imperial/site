@@ -1,11 +1,1 @@
 amogus
-
-@unpublished{test,
-  author    = {Nuri Cingillioglu and Alessandra Russo},
-  title     = {{pix2rule: End-to-end Neuro-symbolic Rule Learning}},
-  journal   = {CoRR},
-  volume    = {abs/2106.07487},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2106.07487},
-  _code     = {https://github.com/nuric/pix2rule}
-}
