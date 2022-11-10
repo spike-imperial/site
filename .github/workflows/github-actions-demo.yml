@@ -24,8 +24,8 @@ jobs:
           echo "CHANGES=changes.txt" >> $GITHUB_OUTPUT
 
       - name: Cat the diff
-        run: cat ${{ steps.diff.outputs.CHANGES }}
         if: steps.get-diff-lines.conclusion != 'skipped'
+        run: cat ${{ steps.get-diff-lines.outputs.CHANGES }}
         working-directory: ./.github/workflows/twitter-action
 
       - name: Setup Python Version
