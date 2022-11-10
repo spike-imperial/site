@@ -9,17 +9,45 @@ The following sections explain how to change some things that are not directly a
 The `publications` folder contains a BibTeX file called `ref.bib` in which all the publications are stored. Therefore, any publication you may add must be formatted in BibTeX. If you don't have a BibTeX prepared for your publications, you can:
 * Use the ones in the file as a reference; or 
 * Try to find your publication in [DBLP](https://dblp.org/) and get the BibTeX from there. These BibTeX usually contain a lot of data that you may wish to remove (e.g. editors, doi, timestamp, biburl, bibsource).
-* Please include the **url** to your publication. The url is essential for our twitter bot to tweet your work.
-* Please try to include tags under the **_tags** field. This would be used as
-tags when tweeting on Twitter.
+* Please include the **url** to your publication. The url field is essential for
+our twitter bot to tweet your work.
 
 Once you have your BibTeX available, you can also add the following custom entries:
 * `_code` - a link to the repository containing the implementation of your paper (or a binary).
 * `_type` - this is added in case you want to specify a custom type which cannot be specified through BibTeX's usual tags (`unpublished`, `inproceedings`, `article`, ...). The currently supported custom types are (if you need any other type of custom type, let us know!):
     * `workshop` - if your paper has been published in a workshop.
 We can add more custom entries if you want (e.g., if you want to add a link to a set of slides, a poster, ...).
+* `_tags` - this is used to sort the papers on our website and used as twitter
+tag on our tweets (the official Twitter account for Spike:
+[Twitter](https://twitter.com/SPIKE_ICL)). We strongly recommend you to include
+**one or more tags** in this field.
 
 If for some reason your publication does not appear once added, let us know (there might be a problem with the filtering).
+
+### IMPORTANT NOTE on modifying `ref.bib`
+
+Our twitter bot is relied on GitHub action. The action only handles single 
+addition of entry.
+
+* If you are adding entries, please **ADD ONE PER COMMIT** so that the twitter
+bot can tweet bothworks. Please **DO NOT** modify other entries. Before you commit and push your code, check if the [Twitter Action workflow](https://github.com/spike-imperial/site/actions/workflows/twitter-action.yml) is enabled.
+If not enabled, your entry won't trigger a tweet, and you need to enable the workflow so that your entry would be tweeted.
+
+* If you are changing entries (e.g. adding `_tags` to entries), please only
+**MODIFY** and **DO NOT** add entry. Before you commit and push your code,
+please **disable** the Twitter action. Once you have pushed your code, enable the Twitter action workflow again.
+
+To disable the twitter action:
+
+* Go to Actions -> [Twitter Action](https://github.com/spike-imperial/site/actions/workflows/twitter-action.yml)
+
+* Click on the '**...**' icon next to the filter, and click '**Disable workflow**' from the drop down.
+
+![...icon](assets/images/readme/disable_twitter_action.png)
+
+To enable the twitter action: go to the same page: Actions -> [Twitter Action](https://github.com/spike-imperial/site/actions/workflows/twitter-action.yml). There should be a big yellow box saying 'This workflow was disabled manually'. Click the '**Enable workflow**' button.
+
+
 
 ## Adding a person
 To add a person you will need to edit the `_data/people.yaml`. There is a YAML list entry for each person whose (possible) fields are the following:
