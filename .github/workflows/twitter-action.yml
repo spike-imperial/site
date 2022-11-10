@@ -1,0 +1,58 @@
+name: GitHub Actions Demo
+run-name: Tweet tweet
+on:
+  push: 
+    branches:
+      - master
+    paths:
+      - 'publications/ref.bib'
+jobs:
+  Tweet-Publication:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v3
+
+      - name: Get changed files in publications
+        id: changed-files-pub
+        uses: tj-actions/changed-files@v34
+        with:
+          files: |
+            publications/test.txt
+
+      - name: Get diff lines
+        id: get-diff-lines
+        if: steps.changed-files-pub.outputs.any_changed == 'true'
+        run: |
+          echo "List all the files that have changed: ${{ steps.changed-files-pub.outputs.all_changed_files }}"
+          git show -U0 ${{ steps.changed-files-pub.outputs.all_changed_files }} | grep -Po '(?<=^\+)(?!\+\+).*' >> ./.github/workflows/twitter-action/changes.txt
+          echo "CHANGES=changes.txt" >> $GITHUB_OUTPUT
+
+      - name: Cat the diff
+        if: steps.get-diff-lines.outcome != 'skipped'
+        run: cat ${{ steps.get-diff-lines.outputs.CHANGES }}
+        working-directory: ./.github/workflows/twitter-action
+
+      - name: Setup Python Version
+        id: python-setup
+        uses: actions/setup-python@v4
+        if: steps.get-diff-lines.outcome != 'skipped'
+        with:
+          python-version: 3.10.6
+          cache: 'pip' # caching pip dependencies
+
+      - name: Pip setup
+        id: pip-setup
+        if: steps.python-setup.outcome == 'success'
+        run: pip install -r requirements.txt
+        working-directory: ./.github/workflows/twitter-action
+
+      - name: Run python script
+        if: steps.pip-setup.outcome == 'success'
+        env:
+          TWITTER_APP_KEY: ${{ secrets.TWITTER_APP_KEY }}
+          TWITTER_APP_SECRET: ${{ secrets.TWITTER_APP_SECRET }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
+        run: python twitter_job.py
+        working-directory: ./.github/workflows/twitter-action

@@ -8,7 +8,10 @@ The following sections explain how to change some things that are not directly a
 ## Adding a publication
 The `publications` folder contains a BibTeX file called `ref.bib` in which all the publications are stored. Therefore, any publication you may add must be formatted in BibTeX. If you don't have a BibTeX prepared for your publications, you can:
 * Use the ones in the file as a reference; or 
-* Try to find your publication in [DBLP](https://dblp.org/) and get the BibTeX from there. These BibTeX usually contain a lot of data that you may wish to remove (e.g., editors, url, doi, timestamp, biburl, bibsource).
+* Try to find your publication in [DBLP](https://dblp.org/) and get the BibTeX from there. These BibTeX usually contain a lot of data that you may wish to remove (e.g. editors, doi, timestamp, biburl, bibsource).
+* Please include the **url** to your publication. The url is essential for our twitter bot to tweet your work.
+* Please try to include tags under the **_tags** field. This would be used as
+tags when tweeting on Twitter.
 
 Once you have your BibTeX available, you can also add the following custom entries:
 * `_code` - a link to the repository containing the implementation of your paper (or a binary).
