@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: Twitter Action
 run-name: Tweet tweet
 on:
   push: 
@@ -18,7 +18,7 @@ jobs:
         uses: tj-actions/changed-files@v34
         with:
           files: |
-            publications/test.txt
+            publications/ref.bib
 
       - name: Get diff lines
         id: get-diff-lines
