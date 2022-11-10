@@ -22,9 +22,14 @@ jobs:
           echo "List all the files that have changed: ${{ steps.changed-files-pub.outputs.all_changed_files }}"
           git show ${{ github.sha }}:publications/test.txt >> changes.txt
           echo "CHANGES=changes.txt" >> $GITHUB_OUTPUT
+        working-directory: ./.github/workflows/twitter-action
 
       - name: Cat the diff
         run: cat ${{ steps.diff.outputs.CHANGES }}
+        working-directory: ./.github/workflows/twitter-action
+
+      - run: ls
+        working-directory: ./.github/workflows/twitter-action
 
       - name: Setup Python Version
         uses: actions/setup-python@v4
