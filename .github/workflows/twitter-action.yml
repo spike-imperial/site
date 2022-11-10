@@ -2,6 +2,8 @@ name: GitHub Actions Demo
 run-name: Tweet tweet
 on:
   push: 
+    branches:
+      - master
     paths:
       - 'publications/ref.bib'
 jobs:
