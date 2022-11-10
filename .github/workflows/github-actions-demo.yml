@@ -20,9 +20,8 @@ jobs:
         if: steps.changed-files-pub.outputs.any_changed == 'true'
         run: |
           echo "List all the files that have changed: ${{ steps.changed-files-pub.outputs.all_changed_files }}"
-          git show ${{ github.sha }}:publications/test.txt >> changes.txt
+          git show -U0 publications/test.txt | grep -Po '(?<=^\+)(?!\+\+).*' >> ./.github/workflows/twitter-action/changes.txt
           echo "CHANGES=changes.txt" >> $GITHUB_OUTPUT
-        working-directory: ./.github/workflows/twitter-action
 
       - name: Cat the diff
         run: cat ${{ steps.diff.outputs.CHANGES }}
