@@ -24,7 +24,7 @@ jobs:
           echo "CHANGES=changes.txt" >> $GITHUB_OUTPUT
 
       - name: Cat the diff
-        if: steps.get-diff-lines.conclusion != 'skipped'
+        if: steps.get-diff-lines.outcome != 'skipped'
         run: cat ${{ steps.get-diff-lines.outputs.CHANGES }}
         working-directory: ./.github/workflows/twitter-action
 
@@ -49,5 +49,5 @@ jobs:
           TWITTER_APP_SECRET: ${{ secrets.TWITTER_APP_SECRET }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
-        run: python hello.py
+        run: python twitter_job.py
         working-directory: ./.github/workflows/twitter-action
