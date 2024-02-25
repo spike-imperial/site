@@ -9,7 +9,7 @@ permalink: /news.html
 <div class="col-md-12">
 <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
 
-<ol class="list-group list-group-flush">
+<ol class="list-group list-group-flush" style="width: 100%">
 {% for article in site.posts %}
 {% if article.type == 'news' %}
 {% assign content = article.content | strip_newlines %}
