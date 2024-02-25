@@ -6,7 +6,7 @@
     scholar: https://scholar.google.co.uk/citations?user=_6zceo4AAAAJ
     website: https://wp.doc.ic.ac.uk/arusso/
   photo: arusso.jpg
-  research_interests: "Bottom up management"
+  research_interests:
   
 - name: Krysia
   surname: Broda
@@ -55,7 +55,7 @@
     start: 2011
     end: 2015
 
-- name: Kitty
+- name: Kexin Gu
   surname: Baugh
   groups: ["phd-student"]
   institution: Imperial College London
@@ -124,7 +124,7 @@
 
 - name: Daniel 
   surname: Furelos-Blanco
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
   social:
     scholar: https://scholar.google.com/citations?user=IfMKjBgAAAAJ
@@ -134,18 +134,14 @@
   research_areas:
     - Reinforcement Learning
     - Knowledge Representation
+  alumni:
+    role: PhD Student
+    start: 2018
+    end: 2023
 
-- name: Daniel
-  surname: Pace
-  groups: ["phd-student"]
-  institution: Imperial College London
-  research_areas:
-    - Deep Learning
-  photo: dpace.jpg
-  
 - name: David
   surname: Tuckey
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
   social:
     researchgate: https://www.researchgate.net/profile/David-Tuckey
@@ -153,10 +149,14 @@
     scholar: https://scholar.google.com/citations?user=PvQhO-kAAAAJ
     github: https://github.com/David-Tuc
   photo: dtuckey.jpeg
+  alumni:
+    role: PhD Student
+    start: 2019
+    end: 2023
   
 - name: Hadeel 
   surname: Al-Negheimish
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
   social:
     scholar: https://scholar.google.com/citations?user=Z_aIahwAAAAJ
@@ -165,12 +165,20 @@
   research_areas:
     - Machine Learning
     - Natural Language Processing
+  alumni:
+    role: PhD Student
+    start: 2018
+    end: 2023
   
 - name: Harry
   surname: Stromfelt
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
   photo: hstromfelt.jpg
+  alumni:
+    role: PhD Student
+    start: 2017
+    end: 2023
   
 - name: Nuri
   surname: Cingillioglu
@@ -184,12 +192,6 @@
     start: 2017
     end: 2022
   photo: nuri.jpg
-  
-- name: Osama
-  surname: Rama
-  groups: ["phd-student"]
-  institution: Imperial College London
-  photo: orama.jpg
 
 - name: Rakhilya 
   surname: Mekhtieva
@@ -197,20 +199,18 @@
   institution: Imperial College London
   photo: rmekhtieva.jpg
   
-- name: Ruben 
-  surname: Vereecken
-  groups: ["phd-student"]
-  institution: Imperial College London
-  photo: rvereecken.jpg
-  
 - name: Shuang 
   surname: Xia
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
   photo: sxia.jpg
   research_areas:
     - Neural Symbolic Induction
     - Knowledge Base Completion
+  alumni:
+    start: 2017
+    end: 2023
+    role: PhD Student
   
 - name: Yaniv 
   surname: Aspis
