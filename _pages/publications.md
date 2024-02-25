@@ -35,6 +35,9 @@ permalink: /publications/
 <label for="dropdown-year-filter">Year</label>
 <select id="dropdown-year-filter" class="form-select dropdown-filter">
 <option class="dropdown-item" value="all">All</option>
+<option class="dropdown-item" value="2024">2024</option>
+<option class="dropdown-item" value="2023">2023</option>
+<option class="dropdown-item" value="2022">2022</option>
 <option class="dropdown-item" value="2021">2021</option>
 <option class="dropdown-item" value="2020">2020</option>
 <option class="dropdown-item" value="2019">2019</option>
