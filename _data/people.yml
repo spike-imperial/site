@@ -517,3 +517,39 @@
   photo: leoardon.png
   research_areas:
     - Neurosymbolic Reinforcement Learning
+
+- name: Mohammad
+  surname: Albinhassan
+  groups: ["phd-student"]
+  institution: Imperial College London
+  photo: malbinhassan.jpg
+
+- name: Roko
+  surname: Parac
+  groups: ["phd-student"]
+  institution: Imperial College London
+  photo: rparac.jpg
+
+- name: Thomas
+  surname: Andrews
+  groups: ["phd-student"]
+  institution: Imperial College London
+  photo: 
+
+- name: Philipp
+  surname: Rader
+  groups: ["phd-student"]
+  institution: Imperial College London
+  photo: prader.jpg
+
+- name: Antonio
+  surname: Ielo
+
+- name: Fiammetta
+  surname: Caccavale
+
+- name: Irfan
+  surname: Kareem
+
+- name: Talisa
+  surname: Dreossi
