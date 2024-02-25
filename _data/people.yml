@@ -124,7 +124,7 @@
 
 - name: Daniel 
   surname: Furelos-Blanco
-  groups: ["alumni"]
+  groups: ["alumni", "post-doc"]
   institution: Imperial College London
   social:
     scholar: https://scholar.google.com/citations?user=IfMKjBgAAAAJ
