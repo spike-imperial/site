@@ -13,7 +13,7 @@ type: news
 After weeks of online SuperTuxKart championships, it was time for the PhD members of the SPIKE research group to race in real life. On Sunday, 8 March, 2020, some SPIKE members enjoyed an eventful evening of go karting followed by a group dinner.
 
 <div class="text-center">
-<img src="https://wwwf.imperial.ac.uk/blog/icpostgrad/files/2021/01/Capture-2-768x577.png" class="img-fluid" style="max-width: 50%">
+<img src="/assets/images/news/karting.png" class="img-fluid" style="max-width: 50%">
 </div>
 
 The evening was a chance to help foster the team spirit of the research group, and enable collaboration that goes beyond the day to day activities of each member’s individual research journey. As one PhD student put it:
