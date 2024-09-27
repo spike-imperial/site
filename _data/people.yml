@@ -139,6 +139,20 @@
     start: 2018
     end: 2023
 
+- name: Amir 
+  surname: Sonee
+  groups: ["post-doc"]
+  institution: Imperial College London
+  social:
+    scholar: https://scholar.google.com/citations?user=j7qVutgAAAAJ
+
+- name: Denys 
+  surname: Prociuk
+  groups: ["post-doc"]
+  institution: Imperial College London
+  social:
+    website: https://uk.linkedin.com/in/denys-prociuk-b3926b134
+
 - name: David
   surname: Tuckey
   groups: ["alumni"]
