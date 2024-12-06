@@ -556,6 +556,12 @@
   institution: Imperial College London
   photo: prader.jpg
 
+- name: Christos
+  surname: Ziakas
+  groups: ["phd-student"]
+  institution: Imperial College London
+  photo: cziakas.jpg
+
 - name: Antonio
   surname: Ielo
 
