@@ -563,6 +563,16 @@
   institution: Imperial College London
   photo: cziakas.jpg
 
+- name: Julien
+  surname: Amblard
+  groups: ["phd-student"]
+  institution: Imperial College London
+  social:
+    scholar: https://scholar.google.com/citations?user=t2kznfcAAAAJ
+    github: https://github.com/julambl75
+    linkedin: https://www.linkedin.com/in/julien-amblard/
+  photo: jamblard.jpg
+
 - name: Antonio
   surname: Ielo
 
