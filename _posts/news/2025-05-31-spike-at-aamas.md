@@ -4,7 +4,7 @@ summary:
 date: 2025-05-31T11:42:57.921Z
 tags:
   - news
-thumbnail: /assets/images/news/spike-aamas.jpeg
+thumbnail:
 layout: post
 permalink: /news/:year/:month/:title/
 type: news
