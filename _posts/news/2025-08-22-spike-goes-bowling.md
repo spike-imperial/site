@@ -1,6 +1,6 @@
 ---
 title: SPIKE Goes Bowling
-summary: PhD Students in the group went Bowling!
+summary: Bowling showdown between SPIKE members
 date: 2025-08-22T15:00:00.000Z
 tags:
   - news
@@ -26,13 +26,13 @@ Across two teams and two rounds of games, each player showed their unique skill:
 - Ultra competitive: I HAVE TO BEAT YOU
 
 <div class="text-center d-flex justify-content-center">
-  <img src="/assets/images/news/bowling-1.jpg" class="img-fluid" style="max-width: 45%">
-  <img src="/assets/images/news/bowling-2.jpg" class="img-fluid" style="max-width: 45%">
+  <img src="/assets/images/news/spike-bowling-1.jpeg" class="img-fluid" style="max-width: 45%">
+  <img src="/assets/images/news/spike-bowling-2.jpeg" class="img-fluid" style="max-width: 45%">
 </div>
 
 <div class="text-center d-flex justify-content-center">
-  <img src="/assets/images/news/bowling-3.jpg" class="img-fluid" style="max-width: 45%">
-  <img src="/assets/images/news/bowling-4.jpg" class="img-fluid" style="max-width: 45%">
+  <img src="/assets/images/news/spike-bowling-3.jpeg" class="img-fluid" style="max-width: 45%">
+  <img src="/assets/images/news/spike-bowling-4.jpeg" class="img-fluid" style="max-width: 45%">
 </div>
 
 Finally, we congratulate the winner of the bowling showdown: Tom! With a
