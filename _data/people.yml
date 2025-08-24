@@ -573,6 +573,15 @@
     linkedin: https://www.linkedin.com/in/julien-amblard/
   photo: jamblard.jpg
 
+- name: Ashvin
+  surname: Gupta
+  groups: ["phd-student"]
+  institution: Imperial College London
+  social:
+    github: https://github.com/Ashvin-Gupta
+    linkedin: https://www.linkedin.com/in/ashvin-gupta-6a89991a1/
+  photo: agupta.jpg
+
 - name: Antonio
   surname: Ielo
 
