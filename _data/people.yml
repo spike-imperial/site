@@ -87,9 +87,12 @@
   surname: Pert
   groups: ["phd-student"]
   institution: Imperial College London
+  social:
+    github: https://github.com/pertcj
+    linkedin: https://www.linkedin.com/in/charlespert/
   photo: cpert.jpg
   research_areas:
-    - Neurosymbolic A.I.
+    - Formal Verification
     - Reinforcement Learning
     - Deep Learning
 
@@ -110,21 +113,24 @@
 
 - name: Daniel 
   surname: Cunnington
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
   social:
     scholar: https://scholar.google.co.uk/citations?user=36a0sxUAAAAJ
     github: https://github.com/DanCunnington
     linkedin: https://uk.linkedin.com/in/dan-cunnington-94b0127b
     twitter: https://twitter.com/DanCunnington
-    website: https://researcher.watson.ibm.com/researcher/view.php?person=uk-DanCunnington
   photo: dcunnington.png
   research_areas:
     - Neurosymbolic Learning
+  alumni:
+    role: PhD Student
+    start: 2020
+    end: 2025
 
 - name: Daniel 
   surname: Furelos-Blanco
-  groups: ["alumni", "post-doc"]
+  groups: ["alumni"]
   institution: Imperial College London
   social:
     scholar: https://scholar.google.com/citations?user=IfMKjBgAAAAJ
@@ -135,9 +141,9 @@
     - Reinforcement Learning
     - Knowledge Representation
   alumni:
-    role: PhD Student
+    role: PhD Student & Post-Doc
     start: 2018
-    end: 2023
+    end: 2025
 
 - name: Amir 
   surname: Sonee
@@ -149,10 +155,14 @@
 
 - name: Denys 
   surname: Prociuk
-  groups: ["post-doc"]
+  groups: ["alumni"]
   institution: Imperial College London
   social:
     website: https://uk.linkedin.com/in/denys-prociuk-b3926b134
+  alumni:
+    role: Post-Doc
+    start: 2024
+    end: 2025
 
 - name: David
   surname: Tuckey
