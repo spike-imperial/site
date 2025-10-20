@@ -6,9 +6,13 @@
 {% endfor %}
 
 {% assign filtered_group = my_array | sort: sorting_criteria %}
+{% if group == "alumni" and sorting_criteria == "alumni.end" %}
+  {% assign filtered_group = filtered_group | reverse %}
+{% endif %}
+
 <div class="row">
 {% for member in filtered_group %}
-{% include_relative member.md %}
+  {% include_relative member.md %}
 {% endfor %}
 </div>
 
