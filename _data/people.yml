@@ -57,13 +57,17 @@
 
 - name: Kexin Gu
   surname: Baugh
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
   social:
     scholar: https://scholar.google.com/citations?user=FR0yYDkAAAAJ&hl=en
     github: https://github.com/kittykg
     linkedin: https://www.linkedin.com/in/kexin-gu-baugh
     website: https://kittykg.github.io/
+  alumni: 
+    role: PhD Student
+    start: 2021
+    end: 2026
   photo: kbaugh.jpg
   research_areas:
     - Neurosymbolic Learning
@@ -99,7 +103,7 @@
 
 - name: Alex
   surname: Spies
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
   social:
     scholar: https://scholar.google.com/citations?user=Jfp2pAQAAAAJ
@@ -107,6 +111,10 @@
     linkedin: https://www.linkedin.com/in/afspies
     twitter: https://www.twitter.com/afspies
     website: https://afspies.com/
+  alumni: 
+    role: PhD Student
+    start: 2020
+    end: 2025
   photo: aspies.png
   research_areas:
     - Neurosymbolic Learning
@@ -221,8 +229,12 @@
 
 - name: Rakhilya 
   surname: Mekhtieva
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
+  alumni: 
+    role: PhD Student
+    start: 2019
+    end: 2024
   photo: rmekhtieva.jpg
   
 - name: Shuang 
@@ -240,8 +252,12 @@
   
 - name: Yaniv 
   surname: Aspis
-  groups: ["phd-student"]
+  groups: ["alumni"]
   institution: Imperial College London
+  alumni: 
+    role: PhD Student
+    start: 2020
+    end: 2024
   photo: yaspis.jpg
   
 - name: Emil
